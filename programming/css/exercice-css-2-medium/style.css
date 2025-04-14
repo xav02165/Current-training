@@ -1,0 +1,70 @@
+body {
+  font-family: "Trirong", serif;
+}
+p.center {
+  text-align: center;
+  color: blue;
+}
+p.center1 {
+  text-align: center;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+p.large {
+  font-size: 400%;
+}
+p.large1 {
+  font-size: 100%;
+  margin-left: 30px;
+}
+p.large2 {
+  font-size: 210%;
+}
+p.large3 {
+  font-size: 100%;
+}
+p.decalage1 {
+  color: rgb(174, 0, 255);
+  font-size: 40px;
+  margin-left: 70px;
+  font-size: 100%;
+}
+p.italic {
+  font-style: italic;
+}
+p.gras {
+  font-weight: bold;
+  margin-left: 30px;
+}
+#para1 {
+  color: #b72632;
+}
+#para2 {
+  color: #26b739a1;
+}
+p.large4 {
+  font-size: 150%;
+  margin-left: 30px;
+}
+p.transform {
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+p.spacing {
+  letter-spacing: 0.5rem;
+  margin-left: 30px;
+}
+p.height {
+  line-height: 2;
+  margin-left: 30px;
+}
+p.font {
+  font-family: "chonky_bunny.ttf";
+}
+@font-face {
+  font-family: "chonky_bunny.ttf";
+  src: local("chonky_bunny.ttf"),
+    url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
+    url("trickster-outline.otf") format("opentype"),
+    url("trickster-outline.woff") format("woff");
+}
