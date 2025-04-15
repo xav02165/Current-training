@@ -59,12 +59,10 @@ p.height {
   margin-left: 30px;
 }
 p.font {
-  font-family: "chonky_bunny.ttf";
+  font-family: "chonky_bunny";
+  margin-left: 30px;
 }
 @font-face {
-  font-family: "chonky_bunny.ttf";
-  src: local("chonky_bunny.ttf"),
-    url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
-    url("trickster-outline.otf") format("opentype"),
-    url("trickster-outline.woff") format("woff");
-}
+  font-family: "chonky_bunny";
+  src: local("fonts/chun"), url("fonts/chonky_bunny.ttf") format("opentype")
+  
