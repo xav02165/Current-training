@@ -1,0 +1,18 @@
+div {
+  width: 425px;
+  height: 295px;
+  border: 2px solid #333;
+  margin: 0px auto;
+}
+#ex1 {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+}
+p {
+  font-weight: bold;
+  color: blanchedalmond;
+  position: relative;
+  top: 6em;
+  font-size: 1.5em;
+  margin-left: 5%;
+}
