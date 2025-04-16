@@ -1,0 +1,14 @@
+h1,
+div {
+  width: 20%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.style {
+  font-weight: bold;
+}
+.color {
+  background-color: chartreuse;
+}
