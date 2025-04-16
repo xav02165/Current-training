@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!-- HTML4.01 transitional -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="FR">
+  <head>
+    <title>Exercice 2 medium</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Créer un compte</h1>
+    <form action="/submit-form" method="post">
+      <div class="form-group style">
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" name="prenom" required />
+      </div>
+
+      <div class="form-group style">
+        <label for="full-name">Nom complet:</label>
+        <input type="text" id="full-name" name="full_name" required />
+      </div>
+
+      <div class="form-group style">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group style">
+        <label for="userPassword ">Mot de passe:</label>
+        <input
+          id="userPassword"
+          type="password"
+          autocomplete="current-password"
+        />
+      </div>
+      <p>
+        Le mot de passe doit contenir au moins 8 caracteres, une majuscule, une
+        minuscule et un chiffre
+      </p>
+
+      <div class="form-group style">
+        <label for="userPassword">Confirmer le mot de passe :</label>
+        <input
+          id="userPassword"
+          type="password"
+          autocomplete="current-password"
+        />
+      </div>
+
+      <div class="form-group style">
+        <label>Date de naissance:</label>
+        <input id="date de naissance" type="date" />
+      </div>
+
+      <div class="form-group style">
+        <label>Genre:</label>
+        <label><input type="radio" name="gender" value="male" /> Homme</label>
+        <label><input type="radio" name="gender" value="female" /> Femme</label>
+        <label><input type="radio" name="gender" value="other" /> Autre</label>
+      </div>
+
+      <div class="form-group style">
+        <label for="country">Pays:</label>
+        <select id="country" name="country">
+          <option value="">Sélectionnez votre pays</option>
+          <option value="fr">France</option>
+          <option value="be">Belgique</option>
+          <option value="ch">Suisse</option>
+          <option value="ca">Canada</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>
+          <input type="checkbox" name="terms" required />
+          J'accepte les conditions d'utilisation
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label>
+          <input type="checkbox" name="newsletter" checked />
+          Je souhaite recevoir la newsletter
+        </label>
+      </div>
+
+      <div class="form-group">
+        <button type="reset" class="color2">Réinitialiser</button>
+        <button type="submit" class="color">S'inscrire</button>
+      </div>
+    </form>
+  </body>
+</html>

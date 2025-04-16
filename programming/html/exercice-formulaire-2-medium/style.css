@@ -1,0 +1,30 @@
+h1,
+p,
+div {
+  width: 30%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.color {
+  background-color: chartreuse;
+}
+.color2 {
+  background-color: crimson;
+}
+.style {
+  font-weight: bold;
+}
+p {
+  font-size: x-small;
+}
+label {
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+input {
+  float: left;
+}
