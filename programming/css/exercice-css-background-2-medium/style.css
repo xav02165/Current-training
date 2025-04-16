@@ -4,7 +4,8 @@ h1 {
   font-size: 300%;
   font-weight: bolder;
 }
-h2 {
+h2,
+h4 {
   font-weight: bold;
   font-size: 300%;
 }
@@ -12,10 +13,31 @@ h2 {
 h3 {
   text-align: center;
 }
-h2,
-p {
-  padding-left: 250px;
-}
+
 p {
   font-size: 200%;
+}
+h3 {
+  margin-top: 400px;
+}
+.decal {
+  margin-top: 50px;
+}
+#ex1 {
+  background-image: url("images/fondbackground2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1,
+h2,
+h3,
+p {
+  color: aliceblue;
+}
+.fond {
+  background-color: grey;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 50px;
 }
