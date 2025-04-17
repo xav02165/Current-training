@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: 200%;
+  font-size: 300%;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 150%;
+}
+.fond {
+  background-color: gold;
+  background: linear-gradient(90deg, gold, red);
+}
+.center2 {
+  font-size: 1.5em;
+  margin-block-start: 2em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 300px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.center3 {
+  margin-inline-start: 300px;
+  margin-inline-end: 300px;
+  font-weight: lighter;
+}
+.center4 {
+  margin-inline-start: 300px;
+  font-size: ;
+}
+.typ1 {
+  font-weight: lighter;
+}
+.typ2 {
+  font-weight: normal;
+}
+.typ3 {
+  font-weight: bold;
+}
+.typ4 {
+  font-weight: italic;
+}
+
+.espace {
+  height: 80px;
+}
+.center5 {
+  font-size: 1.5em;
+  margin-inline-start: 300px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
