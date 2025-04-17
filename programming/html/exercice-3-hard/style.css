@@ -1,0 +1,17 @@
+.italic {
+  font-style: italic;
+}
+.parag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200%;
+}
+.bold {
+  font-weight: bold;
+}
+.dim {
+  font-size: 150%;
+}
+p {
+  padding-right: 150px;
+}
