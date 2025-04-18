@@ -58,3 +58,31 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+.color {
+  color: blue;
+}
+.bold {
+  font-weight: bold;
+}
+.ecart {
+  letter-spacing: 0.3rem;
+}
+.espace2 {
+  height: 50px;
+}
+.hauteur {
+  line-height: 60%;
+}
+.col {
+  column-count: 3;
+}
+.firstlet::first-letter {
+  color: brown;
+  font-size: large;
+  font-weight: bold;
+}
+.firstlin::first-line {
+  color: blue;
+  font-size: small;
+  font-weight: lighter;
+}
