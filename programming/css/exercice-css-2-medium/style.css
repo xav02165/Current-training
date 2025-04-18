@@ -62,7 +62,7 @@ p.font {
   font-family: "chonky_bunny";
   margin-left: 30px;
 }
-@font-face {
+.font-face {
   font-family: "chonky_bunny";
-  src: local("fonts/chun"), url("fonts/chonky_bunny.ttf") format("opentype")
-  
+  src: local("fonts/chun"), url("fonts/chonky_bunny.ttf") format("opentype");
+}
