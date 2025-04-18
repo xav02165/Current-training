@@ -86,3 +86,19 @@ h1 {
   font-size: small;
   font-weight: lighter;
 }
+.ombre {
+  text-shadow: red 2px 5px;
+}
+.degrad {
+  color: transparent;
+  background-image: linear-gradient(120deg, #e21143, #ffb03a);
+  background-clip: text;
+  padding-bottom: 0.2rem;
+}
+.contour {
+  -webkit-text-stroke: 2px red;
+  font-size: medium;
+}
+.container {
+  column-count: 2;
+}
