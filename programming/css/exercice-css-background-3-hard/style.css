@@ -1,11 +1,19 @@
+.title-container {
+  margin: 40px 0;
+}
 .style {
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 body {
   background-image: url("images/bg-desktop.jpg");
   color: blanchedalmond;
   padding-left: 300px;
   padding-right: 300px;
+}
+main {
+  min-height: 80vh;
 }
 .center {
   text-align: center;
@@ -30,8 +38,6 @@ li {
 .service1 {
   display: flex;
   justify-content: space-around;
-  padding: 40px 20px;
-  background: rgba(0, 0, 0, 0.5);
 }
 .service {
   width: 30%;
@@ -44,7 +50,10 @@ textarea {
 }
 .back {
   background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 40px 0;
 }
+
 label {
   vertical-align: top;
 }
@@ -59,4 +68,5 @@ button {
 }
 .pad {
   padding: 20px;
+  margin-bottom: 0;
 }
