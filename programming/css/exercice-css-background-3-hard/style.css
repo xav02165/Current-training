@@ -57,3 +57,6 @@ input {
 button {
   background-color: chartreuse;
 }
+.pad {
+  padding: 20px;
+}
