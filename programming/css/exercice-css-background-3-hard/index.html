@@ -10,64 +10,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table>
-      <thead>
-        <div>
-          <tr>
-            <th class="left">Site Responsive</th>
-            <th class="right">Accueil A propos Services Contact</th>
-          </tr>
-        </div>
-      </thead>
-    </table>
+    <header>
+      <div>
+        <h1 class="left">Site Responsive</h1>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="#"></a>A propos</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>Service</li>
+            <li><a href="#"></a>Accueil</li>
+          </ul></br>
+        </nav>
+      </div>
+    </header>
+
+
     <div class="center">
-      <h1>Bienvenue sur notre site</h1>
+      <h2>Bienvenue sur notre site</h2>
       <p>Decouvrez nos services et notre expertise</p>
       <button>En savoir plus</button>
     </div>
+    <div class="service1">
+      <div class="service">
+        <h3>Service 1</h3>
+        <p>Descritpion du premier service offert</p>
+      </div>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Service 1</th>
-          <th>Service 2</th>
-          <th>Service 3</th>
-        </tr>
-      </thead>
+      <div class="service">
+        <h3>Service 2</h3>
+        <p>Description du deuxieme service offert</p>
+      </div>
 
-      <tbody>
-        <tr>
-          <td>Descritpion du premier service offert</td>
-          <td>Description du deuxieme service offert</td>
-          <td>Descritpion du troisieme service offert</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Contactez nous</h2>
-    <div class="style">
-      <legend><label for="full-name">Nom complet:</label></legend>
-      <input
-        class="styl"
-        type="text"
-        id="full-name"
-        name="full_name"
-        required
-      />
+      <div class="service">
+        <h4>Service 3</h4>
+        <p>Descritpion du troisieme service offert</p>
+      </div>
     </div>
-    <div class="style">
-      <legend><label for="email">Email:</label></legend>
-      <input class="styl" type="email" id="email" name="email" required />
+    <div class="back">
+      <h2>Contactez nous</h2>
+      <div class="style center">
+        <legend><label for="full-name">Nom:</label></legend>
+        <input
+          class="styl"
+          type="text"
+          id="full-name"
+          name="full_name"
+          required
+        />
+      </div>
+      <div class="style center">
+        <legend><label for="email">Email:</label></legend>
+        <input class="styl" type="email" id="email" name="email" required />
+      </div>
+
+      <div class="style center">
+        <label for="message">Message:</label></br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea>
+      </div>
+
+      <div class="center">
+        <button type="submit">Envoyer</button></br>
+      </div>
     </div>
 
-    <div class="style">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" cols="50"></textarea>
-    </div>
-
-    <div>
-      <button type="submit">Envoyer</button>
-    </div>
-
-    <p class="center">&copy; 2025 - Tous droits réservés</p>
+    <p class="center back">&copy; 2025 - Tous droits réservés</p>
   </body>
 </html>

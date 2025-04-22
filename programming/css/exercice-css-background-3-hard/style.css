@@ -4,6 +4,8 @@
 body {
   background-image: url("images/bg-desktop.jpg");
   color: blanchedalmond;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .center {
   text-align: center;
@@ -15,12 +17,33 @@ body {
   text-align: left;
   font-weight: bold;
   font-size: 100%;
+  float: left;
+  margin-top: 1px;
 }
-.right {
-  text-align: right;
-  font-weight: bold;
 
-  font-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
+li {
+  display: inline;
+  text-align: right;
+  float: right;
+}
+.service1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.service {
+  width: 30%;
+  padding: 5px;
+  background: rgba(211, 211, 211, 0.5);
+}
+input,
+textarea {
+  padding: 10px;
+}
+.back {
+  background: rgba(0, 0, 0, 0.5);
+}
+label {
+  vertical-align: top;
 }
