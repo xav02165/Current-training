@@ -25,6 +25,7 @@ li {
   display: inline;
   text-align: right;
   float: right;
+  padding: 3px;
 }
 .service1 {
   display: flex;
