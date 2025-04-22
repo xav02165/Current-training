@@ -38,7 +38,7 @@ li {
   padding: 5px;
   background: rgba(211, 211, 211, 0.5);
 }
-input,
+
 textarea {
   padding: 10px;
 }
@@ -47,4 +47,7 @@ textarea {
 }
 label {
   vertical-align: top;
+}
+input {
+  padding-inline: 80px;
 }
