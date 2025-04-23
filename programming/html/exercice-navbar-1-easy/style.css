@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: end;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: black;
+  color: blanchedalmond;
+  gap: 5px;
+}
+h1 {
+  position: absolute;
+  padding: 10px;
+  background-color: black;
+  color: brown;
+  font-size: larger;
+  font-weight: bold;
+}
+body {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+button {
+  color: blanchedalmond;
+  background-color: blue;
+}
