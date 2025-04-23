@@ -6,11 +6,13 @@ video {
   text-align: center;
   margin-top: 40px;
   font-size: large;
+  margin-right: 20px;
 }
 h1,
 p,
 button {
   padding: 20px;
+  font-weight: bold;
 }
 button {
   font-size: large;
@@ -24,7 +26,7 @@ div {
   top: 20px;
   left: 300px;
   color: ghostwhite;
-  background-color: #626262;
+  background-color: ;
   opacity: 0.8;
 }
 h1 {
