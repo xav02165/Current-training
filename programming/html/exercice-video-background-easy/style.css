@@ -1,6 +1,5 @@
 video {
-  object-position: 50% 50%;
-
+  object-position: ;
   object-fit: cover;
 }
 .center {
@@ -33,4 +32,16 @@ h1 {
 }
 p {
   font-size: 300%;
+}
+.animated-fill-button {
+  padding: 20px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.animated-fill-button:hover {
+  background-color: chartreuse;
+  color: #000;
 }
