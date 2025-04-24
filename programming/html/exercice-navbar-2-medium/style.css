@@ -1,0 +1,89 @@
+ul {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: end;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: black;
+  gap: 40px;
+  margin-left: 30px;
+}
+h1 {
+  position: absolute;
+  padding: 10px;
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 30px;
+}
+button {
+  color: blanchedalmond;
+  cursor: pointer;
+  background-color: blue;
+}
+.animated {
+  cursor: pointer;
+  color: blanchedalmond;
+  transition: 0.5s all ease-in-out;
+}
+.animated:hover {
+  color: crimson;
+}
+.fixed {
+  position: ;
+}
+.center {
+  text-align: center;
+  margin-top: 200px;
+  font-size: large;
+}
+h2 {
+  font-weight: bold;
+  font-size: 300%;
+}
+h3 {
+  font-weight: bold;
+  font-size: 250%;
+  padding-top: 100px;
+  margin-left: 30px;
+}
+.titre {
+  font-weight: bold;
+  font-size: 200%;
+}
+.para {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 60px;
+  gap: 50px;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 250%;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.overlay {
+  position: ;
+  top: 20px;
+  left: px;
+  bottom: 100px;
+  right: px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.projet {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+.portf {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 60px;
+}
