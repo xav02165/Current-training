@@ -1,21 +1,26 @@
 ul {
   display: flex;
+  position: ;
   flex-direction: flex-end;
   justify-content: end;
-  margin-bottom: 20px;
   padding: 15px;
   background-color: black;
   gap: 40px;
-  margin-left: 30px;
+  margin-right: 30px;
 }
-h1 {
-  position: absolute;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 10px;
   background-color: black;
   color: blanchedalmond;
   font-size: 150%;
   font-weight: bold;
-  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 button {
   color: blanchedalmond;
@@ -64,26 +69,63 @@ h3 {
   margin-top: 30px;
   margin-right: 60px;
 }
-h4 {
+h4,
+h5,
+h6 {
   font-weight: bold;
   font-size: 250%;
-  padding-top: 20px;
   margin-left: 30px;
+  padding-bottom: 30px;
 }
 .overlay {
-  position: ;
-  top: 20px;
-  left: px;
-  bottom: 100px;
-  right: px;
+  padding: 40px;
   background: rgba(0, 0, 0, 0.1);
 }
 .projet {
-  padding-top: 20px;
+  padding-top: 10px;
   margin-left: 30px;
+  margin-bottom: 20px;
 }
 .portf {
   padding-top: 20px;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+}
+.pmep {
+  padding-top: 20;
+  margin-left: 30px;
+  padding-bottom: 40px;
+}
+.back {
+  background-color: black;
+  padding: 20px;
+  margin: 40px 0;
+  color: blanchedalmond;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pad {
+  padding: 20px;
+  margin-bottom: 0;
+}
+.dot {
+  width: 90%;
+  height: 5px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-style: dashed;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
