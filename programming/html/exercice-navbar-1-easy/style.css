@@ -2,12 +2,10 @@ ul {
   display: flex;
   flex-direction: flex-end;
   justify-content: end;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 10px;
   background-color: black;
-  color: blanchedalmond;
   gap: 5px;
-  padding-top: -100px;
 }
 h1 {
   position: absolute;
@@ -16,20 +14,49 @@ h1 {
   color: brown;
   font-size: larger;
   font-weight: bold;
-  padding-top: -100px;
 }
 body {
   padding-left: 400px;
   padding-right: 400px;
+  background-color: darkolivegreen;
 }
 button {
   color: blanchedalmond;
+  cursor: pointer;
   background-color: blue;
 }
 video {
   object-position: center;
-  object-fit: contain;
-  height: 785px;
-  width: 844px;
-  padding: 0;
+  object-fit: ;
+  height: 440px;
+  width: 800px;
+}
+.center {
+  text-align: center;
+  margin-top: 200px;
+  font-size: large;
+}
+.desc {
+  position: absolute;
+  top: 20px;
+  left: 560px;
+  color: ghostwhite;
+
+  opacity: 0.8;
+}
+.overlay {
+  position: ;
+  top: 100px;
+  left: 580px;
+  bottom: 730px;
+  right: 580px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.animated {
+  cursor: pointer;
+  color: blanchedalmond;
+  transition: 0.5s all ease-in-out;
+}
+.animated:hover {
+  color: crimson;
 }
