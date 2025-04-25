@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 150%;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.animated {
+  cursor: pointer;
+  color: blanchedalmond;
+  transition: 0.5s all ease-in-out;
+}
+.animated:hover {
+  color: crimson;
+}
+nav {
+  margin-top: 50px;
+}
