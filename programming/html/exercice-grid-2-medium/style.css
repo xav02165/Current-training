@@ -23,3 +23,47 @@
 nav {
   margin-top: 50px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-top: 50px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 10px;
+  background-color: black;
+  margin-top: 50px;
+  color: blanchedalmond;
+}
+.foot {
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Titre {
+  text-align: left;
+  font-weight: 200%;
+  font-size: 150%;
+  padding-top: 40px;
+}
+.center {
+  text-align: left;
+  font-size: small;
+  padding-bottom: 20px;
+}
+.button {
+  text-align: center;
+  font-weight: 200%;
+  font-size: 150%;
+  margin-top: 20px;
+}
+main {
+  padding-left: 200px;
+  padding-right: 200px;
+}
