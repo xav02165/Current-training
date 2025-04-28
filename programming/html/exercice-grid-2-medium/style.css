@@ -119,7 +119,7 @@ p {
   .grid {
     grid-template-columns: 70% 30%;
     grid-template-rows: 20% 80%;
-    display: grid;
+    display: inline-block;
     gap: 10px;
   }
   .box1 {
@@ -127,13 +127,16 @@ p {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    text-align: center;
     gap: 20px;
-
-    align-self: center;
-    justify-self: center;
   }
   .grid4 {
     grid-template-columns: 50% 50%;
+  }
+  .ualign {
+    display: flex;
+    justify-content: space-around;
+  }
+  .center2 {
+    text-align: center;
   }
 }
