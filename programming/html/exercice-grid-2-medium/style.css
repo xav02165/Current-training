@@ -172,7 +172,7 @@ p {
 @media only screen and (max-width: 600px) {
   .grid {
     grid-template-columns: 100%;
-    grid-template-rows: 20% 50% 30%;
+    grid-template-rows: 5% 60% 35%;
     gap: 20px;
   }
   main {
