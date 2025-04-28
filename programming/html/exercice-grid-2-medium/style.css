@@ -57,11 +57,13 @@ nav {
   color: blanchedalmond;
   text-align: center;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 .Titre {
   text-align: left;
   font-weight: 600%;
   font-size: 180%;
+  padding-top: 20px;
   padding-top: 20px;
 }
 .center {
@@ -74,8 +76,9 @@ nav {
   font-weight: 200%;
   font-size: 150%;
   margin-top: 20px;
-  margin-left: 200px;
+  align-content: center;
   background-color: forestgreen;
+  margin-left: 250px;
 }
 main {
   padding-left: 50px;
