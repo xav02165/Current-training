@@ -27,16 +27,20 @@
   color: crimson;
 }
 nav {
-  margin-top: 10px;
   font-size: 70%;
 }
+
+.btn {
+  padding: 1em 2em;
+  display: block;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  gap: 10px;
+  gap: 50px;
   padding-left: 50px;
   padding-right: 50px;
-
   margin-top: 50px;
 }
 .grid2 {
@@ -74,12 +78,10 @@ nav {
   background-color: forestgreen;
 }
 main {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-li {
-  padding-bottom: 20px;
-}
+
 .titre2 {
   font-weight: bold;
   font-size: larger;
@@ -113,24 +115,29 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-  }
   .grid {
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 20% 80%;
-    display: inline-block;
-    gap: 10px;
+    grid-template-columns: 60% 40%;
+  }
+  main {
+    padding: 0;
   }
   .box1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    gap: 20px;
   }
-  .grid4 {
-    grid-template-columns: 50% 50%;
+  .box2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .box3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
   .ualign {
     display: flex;
@@ -138,5 +145,21 @@ p {
   }
   .center2 {
     text-align: center;
+  }
+  .button {
+    text-align: center;
+    font-weight: 200%;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: 160px;
+    background-color: forestgreen;
+  }
+  .titre3 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .titre4 {
+    margin-bottom: 20px;
+    text-align: left;
   }
 }
