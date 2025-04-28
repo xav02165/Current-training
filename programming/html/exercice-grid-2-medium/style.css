@@ -6,12 +6,18 @@
   padding: 10px;
   background-color: black;
   color: blanchedalmond;
-  font-size: 150%;
+  font-size: 120%;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
 .animated {
   cursor: pointer;
   color: blanchedalmond;
@@ -21,7 +27,8 @@
   color: crimson;
 }
 nav {
-  margin-top: 50px;
+  margin-top: 10px;
+  font-size: 70%;
 }
 .grid {
   display: grid;
@@ -37,20 +44,21 @@ nav {
   grid-template-columns: 25% 25% 25% 25%;
   gap: 10px;
   background-color: black;
-  margin-top: 40px;
+  margin-top: 30px;
   color: blanchedalmond;
+  padding-top: 10px;
 }
 .foot {
   background-color: black;
   color: blanchedalmond;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .Titre {
   text-align: left;
   font-weight: 600%;
-  font-size: 200%;
-  padding-top: 40px;
+  font-size: 180%;
+  padding-top: 20px;
 }
 .center {
   text-align: left;
@@ -100,6 +108,32 @@ li {
 .p1 {
   padding-bottom: 10px;
 }
-.rem {
-  padding-top: -10px;
+p {
+  font-size: 80%;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+  .grid {
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 80%;
+    display: grid;
+    gap: 10px;
+  }
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    gap: 20px;
+
+    align-self: center;
+    justify-self: center;
+  }
+  .grid4 {
+    grid-template-columns: 50% 50%;
+  }
 }
