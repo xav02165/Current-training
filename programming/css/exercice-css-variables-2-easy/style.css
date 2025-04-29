@@ -1,0 +1,68 @@
+.theme-sombre {
+}
+.title-container {
+  margin: 100px 0;
+}
+
+main {
+  min-height: 70vh;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  text-align: left;
+  font-weight: bold;
+  font-size: 100%;
+  float: left;
+  margin-top: 20px;
+}
+
+li {
+  display: inline;
+  text-align: right;
+  float: right;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.service1 {
+  display: flex;
+  justify-content: space-around;
+}
+.service {
+  width: 30%;
+  padding: 5px;
+  background: bisque;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.back {
+  padding: 20px;
+}
+h1,
+li,
+h3,
+h4 {
+  color: dodgerblue;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  color: dodgerblue;
+  font-size: 120%;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+footer {
+  background-color: bisque;
+}
