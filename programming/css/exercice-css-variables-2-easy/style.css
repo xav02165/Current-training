@@ -1,4 +1,19 @@
-.theme-sombre {
+:root {
+  background-color: black;
+  .navbar {
+    background-color: black;
+  }
+  h2,
+  p {
+    color: blanchedalmond;
+  }
+  footer {
+    background-color: dimgray;
+    color: blanchedalmond;
+  }
+  .service {
+    background-color: dimgray;
+  }
 }
 .title-container {
   margin: 100px 0;
@@ -30,14 +45,14 @@ li {
 }
 .service1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .service {
-  width: 30%;
+  width: 25%;
   padding: 5px;
   background: bisque;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .back {
