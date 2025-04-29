@@ -1,0 +1,28 @@
+table,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse; /* Fusionne les bordures adjacentes */
+  width: 90%;
+}
+th,
+caption {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+caption,
+th,
+td {
+  font-size: 200%;
+}
+caption {
+  line-height: 300%;
+}
+th {
+  background-color: cadetblue;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}

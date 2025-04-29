@@ -1,0 +1,53 @@
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+.bP {
+  background-color: blue;
+  color: blanchedalmond;
+}
+.bS {
+  background-color: dimgrey;
+  color: blanchedalmond;
+}
+.bD {
+  background-color: crimson;
+  color: blanchedalmond;
+}
+.center {
+  text-align: center;
+}
+p {
+  font-style: italic;
+}
+
+.bP:hover {
+  transition-duration: 1s;
+  background-color: black;
+  border-radius: 5em;
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(-6px);
+}
+.bS:hover {
+  transition-duration: 1s;
+  background-color: darkviolet;
+  border-radius: 5em;
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(4px);
+}
+.bD:hover {
+  transition-duration: 500ms;
+  background-color: gold;
+  color: black;
+  border-radius: 5em;
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+    #ffffff 40%,
+    #ffffff 60%,
+    transparent 60%,
+    transparent 100%
+  );
+}
