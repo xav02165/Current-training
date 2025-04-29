@@ -1,4 +1,4 @@
-:roots {
+:root {
   background-color: black;
   .navbar {
     background-color: black;
@@ -15,6 +15,7 @@
     background-color: dimgray;
   }
 }
+
 .title-container {
   margin: 100px 0;
 }
@@ -85,4 +86,16 @@ footer {
 main {
   margin-left: 200px;
   margin-right: 200px;
+}
+button {
+  background-color: dimgrey;
+  color: blanchedalmond;
+}
+button:hover:active {
+  transition-duration: 1s;
+  background-color: darkviolet;
+  border-radius: 5em;
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(4px);
+  color: black;
 }
