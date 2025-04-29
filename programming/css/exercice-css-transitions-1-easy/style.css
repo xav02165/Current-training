@@ -35,6 +35,7 @@ p {
   border-radius: 5em;
   box-shadow: 0 2px #2980b9;
   transform: translateY(4px);
+  color: black;
 }
 .bD:hover {
   transition-duration: 500ms;
