@@ -1,7 +1,9 @@
-:root {
+.theme-sombre {
   background-color: black;
+
   .navbar {
     background-color: black;
+    border-color: darkslategrey;
   }
   h2,
   p {
@@ -10,9 +12,11 @@
   footer {
     background-color: dimgray;
     color: blanchedalmond;
+    border-color: darkgray;
   }
   .service {
     background-color: dimgray;
+    border-color: blanchedalmond;
   }
 }
 
@@ -55,6 +59,8 @@ li {
   background: bisque;
   margin-left: 50px;
   margin-right: 50px;
+  border-style: double;
+  background: linear-gradient(20deg, blanchedalmond, red);
 }
 
 .back {
@@ -79,9 +85,14 @@ h4 {
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
+  border-style: solid;
+  background: linear-gradient(45deg, blanchedalmond, red);
 }
 footer {
-  background-color: bisque;
+  background-color:darkgray;
+  border-style: dashed;
+  background: linear-gradient(45deg, red, blanchedalmond);
+}
 }
 main {
   margin-left: 200px;
@@ -91,11 +102,30 @@ button {
   background-color: dimgrey;
   color: blanchedalmond;
 }
-button:hover:active {
+button:hover {
   transition-duration: 1s;
   background-color: darkviolet;
   border-radius: 5em;
   box-shadow: 0 2px #2980b9;
   transform: translateY(4px);
   color: black;
+}
+
+button:active {
+  background-color: black;
+
+  .navbar {
+    background-color: black;
+  }
+  h2,
+  p {
+    color: blanchedalmond;
+  }
+  footer {
+    background-color: dimgray;
+    color: blanchedalmond;
+  }
+  .service {
+    background-color: dimgray;
+  }
 }
