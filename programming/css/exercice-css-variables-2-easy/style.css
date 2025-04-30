@@ -1,5 +1,12 @@
+:root {
+  --couleur-texte: white;
+  --margin-element: 40px;
+  --color: black;
+}
+
 .theme-sombre {
-  background-color: black;
+  --couleur-texte: #333;
+  background-color: blanchedalmond;
 
   .navbar {
     background-color: black;
@@ -7,11 +14,11 @@
   }
   h2,
   p {
-    color: blanchedalmond;
+    color: var(--color);
   }
   footer {
     background-color: dimgray;
-    color: blanchedalmond;
+    color: var(--color);
     border-color: darkgray;
   }
   .service {
@@ -61,6 +68,7 @@ li {
   margin-right: 50px;
   border-style: double;
   background: linear-gradient(20deg, blanchedalmond, red);
+  margin-bottom: 0px;
 }
 
 .back {
@@ -89,18 +97,18 @@ h4 {
   background: linear-gradient(45deg, blanchedalmond, red);
 }
 footer {
-  background-color:darkgray;
+  background-color: darkgray;
   border-style: dashed;
   background: linear-gradient(45deg, red, blanchedalmond);
 }
-}
+
 main {
   margin-left: 200px;
   margin-right: 200px;
 }
 button {
   background-color: dimgrey;
-  color: blanchedalmond;
+  color: var(--color);
 }
 button:hover {
   transition-duration: 1s;
