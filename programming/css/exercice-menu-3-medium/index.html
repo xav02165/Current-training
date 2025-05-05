@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css-menu-3-medium</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -17,19 +18,65 @@
             width="40px"
             height="40px"
           />
-          ThémeCraft
+          AutoDesign
         </h1>
       </div>
 
       <nav>
         <ul>
-          <li><a href="#"></a>Galerie</li>
-          <li><a href="#"></a>Contact</li>
-          <li><a href="#"></a>Service</li>
-          <li><a href="#"></a>L'Equipe</li>
-          <li><a href="#"></a>Accueil</li>
+          <li>
+            <img
+              src="image.png/gallery-880815_640.png"
+              alt="logovoiture.png"
+              width="20px"
+              height="20px"
+            /><a href="#"></a>Galerie
+          </li>
+          <li>
+            <img
+              src="image.png/contact.png"
+              alt="logovoiture.png"
+              width="20px"
+              height="20px"
+            /><a href="#"></a>Contact
+          </li>
+          <li>
+            <img
+              src="image.png/service.png"
+              alt="logovoiture.png"
+              width="20px"
+              height="20px"
+            />
+            <a href="#"></a>Service
+          </li>
+          <li>
+            <img
+              src="image.png/equipe.png"
+              alt="logovoiture.png"
+              width="20px"
+              height="20px"
+            /><a href="#"></a>L'Equipe
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_toggle" /><img
+              src="image.png/accueil.png"
+              alt="logovoiture.png"
+              width="20px"
+              height="20px"
+            />
+            <a for="checkbox_toggle" class="ajust">Accueil</a>
+            <ul class="ul">
+              <li><a href="#">Link One</a></li>
+              <li><a href="#">Link Two</a></li>
+              <li><a href="#">Link Three</a></li>
+              <li><a href="#">Link Four</a></li></li>
+            </ul>
+          </div>
         </ul>
       </nav>
+
+      <input class="menu_hamburger" type="checkbox" id="votre_id" />
+      <label for="votre_id"></label>
     </div>
   </header>
 </html>
