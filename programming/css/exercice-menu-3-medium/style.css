@@ -62,16 +62,7 @@ h1 {
     100% 100%/60% 60%;
   transform: translateZ(0) rotate(45deg);
 }
-input[type="checkbox"] {
-  display: none;
-}
-.ul {
-  display: none;
-}
-input[type="checkbox"]:checked ~ .ul {
-  display: flex;
-  color: blue;
-}
+
 .ajust {
   flex-direction: initial;
   float: inline-block;
