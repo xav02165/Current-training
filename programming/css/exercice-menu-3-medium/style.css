@@ -51,7 +51,6 @@ h1 {
   flex-direction: initial;
   float: left;
   position: fixed;
-  margin-top: 30px;
 }
 
 .menu_hamburger:checked + label {
@@ -69,8 +68,9 @@ input[type="checkbox"] {
 .ul {
   display: none;
 }
-input[type="checkbox"]:checked ~ ul {
+input[type="checkbox"]:checked ~ .ul {
   display: flex;
+  color: blue;
 }
 .ajust {
   flex-direction: initial;
