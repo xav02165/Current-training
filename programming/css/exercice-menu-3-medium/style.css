@@ -143,9 +143,13 @@ h1 {
 
 .menu-hamburger {
   height: 50px;
+  position: fixed;
+  flex-direction: initial;
+  float: left;
+  margin-left: 180px;
 }
 .menu-hamburger > .trait {
-  display: block;
+  display: flex;
   background: red;
   height: 2px;
   width: 40px;
