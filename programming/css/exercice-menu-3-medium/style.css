@@ -110,7 +110,12 @@ h1 {
   display: block;
 }
 .dropdown:hover .dropdown-button {
-  background-color: #2980b9;
+  transition-duration: 1s;
+  background-color: darkviolet;
+  border-radius: 5em;
+  box-shadow: 0 2px #2980b9;
+  transform: translateY(4px);
+  color: black;
 }
 @media screen and (max-width: 800px) {
   .navbar {

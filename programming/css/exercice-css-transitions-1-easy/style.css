@@ -29,7 +29,8 @@ p {
   box-shadow: 0 2px #2980b9;
   transform: translateY(-6px);
 }
-.bS:hover {
+
+.bs:hover {
   transition-duration: 1s;
   background-color: darkviolet;
   border-radius: 5em;
