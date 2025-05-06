@@ -87,7 +87,7 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: crimson;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -127,9 +127,13 @@ h1 {
     justify-content: space-between;
     vertical-align: auto;
     align-items: center;
+    background: darkslateblue;
   }
   nav {
     display: none;
+  }
+  body {
+    background: black;
   }
 }
 
