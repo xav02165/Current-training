@@ -22,7 +22,7 @@
   color: blanchedalmond;
 }
 .text-image {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   color: white;
@@ -37,8 +37,11 @@
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
+  position: relative;
 }
 .photo {
   position: relative;
   height: 40vh;
+  width: 100%;
+  object-fit: cover;
 }
