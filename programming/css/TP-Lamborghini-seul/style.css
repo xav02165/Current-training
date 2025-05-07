@@ -12,6 +12,7 @@
   justify-content: space-between;
   vertical-align: middle;
   align-items: center;
+  z-index: 1;
 }
 .nav-align {
   display: flex;
@@ -19,4 +20,25 @@
   float: right;
   gap: 10px;
   color: blanchedalmond;
+}
+.text-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.container-grid {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+.container-photo {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.photo {
+  position: relative;
+  height: 40vh;
 }
