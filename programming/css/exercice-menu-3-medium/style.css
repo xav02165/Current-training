@@ -174,3 +174,7 @@ h1 {
     100% 100%/60% 60%;
   transform: translateZ(0) rotate(45deg);
 }
+
+#menu-mobile:checked + .menu-hamburger .croix {
+  visibility: hidden;
+}
