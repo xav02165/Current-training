@@ -36,7 +36,7 @@ h1 {
   font-size: large;
   color: black;
 }
-
+/* menu hamburger en croix */
 .menu_hamburger {
   position: fixed;
   flex-direction: initial;
@@ -71,6 +71,8 @@ h1 {
   padding: 5px;
   gap: 5px;
 }
+
+/* bouton accueil avec menu */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -110,13 +112,14 @@ h1 {
   display: block;
 }
 .dropdown:hover .dropdown-button {
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   background-color: darkviolet;
   border-radius: 5em;
   box-shadow: 0 2px #2980b9;
   transform: translateY(4px);
   color: black;
 }
+
 @media screen and (max-width: 800px) {
   .navbar {
     position: relative;
@@ -142,12 +145,12 @@ h1 {
   }
 }
 
+/* menu hamburger rouge*/
 #menu-mobile:checked ~ nav {
   display: block;
 }
 
 .menu-hamburger {
-  height: 50px;
   position: fixed;
   flex-direction: initial;
   float: left;
@@ -155,9 +158,19 @@ h1 {
 }
 .menu-hamburger > .trait {
   display: flex;
-  background: red;
+  background: linear-gradient(#6753ea 100%, transparent 50%) 0 0/100% 40%;
   height: 2px;
   width: 40px;
   padding: 2px;
   margin: 8px 0;
+}
+
+#menu-mobile:checked + .menu-hamburger {
+  background: conic-gradient(
+      from 90deg at 33% 33%,
+      transparent 90deg,
+      #6753ea 0%
+    )
+    100% 100%/60% 60%;
+  transform: translateZ(0) rotate(45deg);
 }
