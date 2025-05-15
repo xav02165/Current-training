@@ -45,8 +45,8 @@ h2 {
 }
 
 .card {
-  opacity: 0;
-  animation: fadeInUp 1.5s ease-out forwards;
+  opacity: 1;
+  animation: fadeInUp 3s ease-out forwards;
 }
 
 .card:nth-child(1) {
@@ -88,7 +88,6 @@ h2 {
 
 .card:hover {
   animation: bounce 1s ease-in-out infinite;
-  animation: changementCouleur 5s ease-in-out alternate infinite;
 }
 
 @keyframes bounce {
@@ -120,17 +119,5 @@ h2 {
 }
 
 h2:hover {
-  animation: pulse 1s ease-in-out infinite;
-}
-
-@keyframes changementCouleur {
-  0% {
-    background-color: red;
-  }
-  50% {
-    background-color: blue;
-  }
-  100% {
-    background-color: green;
-  }
+  animation: pulse 0.5s ease-in-out infinite;
 }
