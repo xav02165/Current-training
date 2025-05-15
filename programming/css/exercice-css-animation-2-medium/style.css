@@ -86,9 +86,11 @@ h2 {
   }
 }
 
-.card1:hover {
+.card:hover {
   animation: bounce 1s ease-in-out infinite;
+  animation: changementCouleur 5s ease-in-out alternate infinite;
 }
+
 @keyframes bounce {
   0%,
   20%,
@@ -102,5 +104,33 @@ h2 {
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h2:hover {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes changementCouleur {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
   }
 }
