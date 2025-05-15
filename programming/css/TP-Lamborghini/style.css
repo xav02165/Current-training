@@ -107,8 +107,8 @@ li:hover .dropdown-menu {
 
 .card {
   position: relative;
-  padding: var(--base-space-elements);
-  height: 40vh;
+  padding: 20px;
+  height: 10vh;
 }
 
 #img1 {
