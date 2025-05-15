@@ -31,6 +31,27 @@ h2 {
 }
 .cadre {
   border: 1px black solid;
+  background-color: aqua;
+  animation: backgroundColorChange 1s ease-out backwards;
+}
+
+.cadre:hover .card1 {
+  animation: backgroundColorChange 1s ease-out backwards;
+  animation: fadeInUp 3s ease-out backwards;
+  animation: bounce 1s ease-in-out infinite;
+  animation: pulse 0.5s ease-in-out infinite;
+}
+
+@keyframes backgroundColorChange {
+  0% {
+    background-color: aqua;
+  }
+  50% {
+    background-color: rgb(19, 8, 175);
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 @keyframes fadeInUp {
@@ -46,7 +67,7 @@ h2 {
 
 .card {
   opacity: 1;
-  animation: fadeInUp 3s ease-out forwards;
+  animation: fadeInUp 3s ease-out backwards;
 }
 
 .card:nth-child(1) {
