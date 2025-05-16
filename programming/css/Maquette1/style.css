@@ -1,3 +1,7 @@
+body {
+  background-color: gray;
+}
+
 /*HEADER*/
 .navbar {
   position: absolute;
@@ -42,7 +46,7 @@ h1 {
   position: absolute;
   margin-top: 450px;
   color: blanchedalmond;
-  background-color: coral;
+  background-color: #ff7f50;
   margin-left: 950px;
   margin-right: 470px;
   font-size: larger;
@@ -50,28 +54,69 @@ h1 {
 
   border-radius: 20px;
 }
+.image {
+  width: 100%;
+}
 
 /*section grid*/
-.container.grid {
+.container {
+  margin-left: 300px;
+  margin-right: 300px;
+  color: blanchedalmond;
+}
+.container-grid {
   display: grid;
-  grid-template-columns: 20% 80% 20%;
+  grid-template-columns: 100%;
   grid-template-rows: repeat(3, 1fr);
 }
-.grid1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+.img1 {
+  display: flex;
+  position: right;
+  margin-left: 100px;
 }
-.grid2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.bloc-text1 {
+  position: left;
 }
-.grid3 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+.container-grid2 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1;
+  background-color: black;
+  padding: 50px;
+}
+h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: black;
+  color: blanchedalmond;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.button2 {
+  display: flex;
+  position: absolute;
+  margin-top: 290px;
+  color: blanchedalmond;
+  background-color: #ff7f50;
+  margin-left: 630px;
+  margin-right: 470px;
+  font-size: medium;
+}
+.p1 {
+  font-size: larger;
+  margin-left: 30px;
+}
+.p2 {
+  margin-left: 50px;
+}
+.vertical-line {
+  border-left: 2px solid #ff7f50;
+  display: inline-block;
+  height: 60px;
+  margin: 20px 20px;
+  margin-right: 20px;
 }
