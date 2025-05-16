@@ -1,0 +1,77 @@
+/*HEADER*/
+.navbar {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: blanchedalmond;
+  font-size: 150%;
+  font-weight: normal;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.position-menu {
+  display: flex;
+}
+h1 {
+  display: flex;
+  position: absolute;
+  margin-top: 230px;
+  color: blanchedalmond;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 60px;
+  text-align: right;
+}
+.pos-text {
+  display: flex;
+  position: absolute;
+  margin-top: 350px;
+  color: blanchedalmond;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 20px;
+  text-align: right;
+  line-height: 25px;
+}
+.button1 {
+  display: flex;
+  position: absolute;
+  margin-top: 450px;
+  color: blanchedalmond;
+  background-color: coral;
+  margin-left: 950px;
+  margin-right: 470px;
+  font-size: larger;
+  text-align: right;
+
+  border-radius: 20px;
+}
+
+/*section grid*/
+.container.grid {
+  display: grid;
+  grid-template-columns: 20% 80% 20%;
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.grid2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.grid3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
