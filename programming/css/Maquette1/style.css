@@ -67,7 +67,7 @@ h1 {
 .container-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1;
 }
 .img1 {
   display: flex;
@@ -118,5 +118,60 @@ h2 {
   display: inline-block;
   height: 60px;
   margin: 20px 20px;
-  margin-right: 20px;
+}
+/*section grid 2*/
+.container-grid3 {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: 15% 75%;
+  background-color: coral;
+  padding: 50px;
+}
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: coral;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.container2 {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  color: blanchedalmond;
+  background-color: coral;
+}
+.img2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.img3 {
+  padding-right: 30px;
+}
+.p3 {
+  display: flex;
+  margin-left: 30px;
+}
+.p4 {
+  display: flex;
+  margin-left: 30px;
+}
+.color-text {
+  color: black;
+  font-weight: bolder;
+  padding-right: 40px;
+}
+.p5 {
+  font-size: 26px;
+}
+/*section grid3*/
+.container3 {
+  margin-left: 300px;
+  margin-right: 300px;
+  color: blanchedalmond;
+  background-color: rgb(0, 0, 0);
 }
