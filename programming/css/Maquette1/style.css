@@ -65,7 +65,12 @@ h1 {
 .image {
   width: 100%;
 }
-
+.icon {
+  display: flex;
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 5px;
+}
 /*section grid*/
 .container {
   margin-left: 300px;
