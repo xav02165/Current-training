@@ -9,6 +9,7 @@ a {
 }
 a:hover {
   color: coral;
+  background-color: black;
 }
 .navbar {
   position: absolute;
