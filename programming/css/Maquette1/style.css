@@ -112,12 +112,14 @@ h2 {
 }
 .p2 {
   margin-left: 50px;
+  padding-bottom: 20px;
 }
 .vertical-line {
   border-left: 2px solid #ff7f50;
   display: inline-block;
   height: 60px;
   margin: 20px 20px;
+  margin-left: -10px;
 }
 /*section grid 2*/
 .container-grid3 {
@@ -154,11 +156,38 @@ h3 {
 }
 .p3 {
   display: flex;
-  margin-left: 30px;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: larger;
+}
+.p32 {
+  display: flex;
+  position: absolute;
+  font-size: larger;
+  margin-left: 50px;
+  margin-top: 70px;
 }
 .p4 {
   display: flex;
-  margin-left: 30px;
+  position: absolute;
+  margin-left: 50px;
+  padding: 2px;
+  background-color: black;
+  margin-top: -30px;
+}
+.p6 {
+  display: flex;
+  margin-left: 25px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: larger;
+}
+.p33 {
+  display: flex;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 70px;
 }
 .color-text {
   color: black;
@@ -167,6 +196,15 @@ h3 {
 }
 .p5 {
   font-size: 26px;
+}
+
+.p7 {
+  display: flex;
+  position: absolute;
+  margin-left: 30px;
+  padding: 2px;
+  background-color: black;
+  margin-top: -30px;
 }
 /*section grid3*/
 .container3 {
@@ -194,6 +232,9 @@ h4 {
   padding: 50px;
 }
 
+hr {
+  background-color: coral;
+}
 /*Footer*/
 .img-visuel {
   display: flex;
@@ -276,31 +317,16 @@ textarea {
   background-color: gray;
   color: coral;
 }
-.button4:hover {
+.button4:active {
   transition-duration: 2s;
-  background-color: coral;
+
   color: black;
-
-  background-image: linear-gradient(
-    -60deg,
-    transparent,
-    transparent 40%,
-
-    transparent 60%,
-    transparent 100%
-  );
+  background-image: linear-gradient(to right, gray, coral);
 }
-.button5:hover {
+.button5:active {
   transition-duration: 2s;
-  background-color: coral;
+
   color: black;
 
-  background-image: linear-gradient(
-    -60deg,
-    transparent,
-    transparent 40%,
-
-    transparent 60%,
-    transparent 100%
-  );
+  background-image: linear-gradient(to right, gray, coral);
 }
