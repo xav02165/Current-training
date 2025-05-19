@@ -193,3 +193,114 @@ h4 {
   background-color: black;
   padding: 50px;
 }
+
+/*Footer*/
+.img-visuel {
+  display: flex;
+  position: absolute;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  margin-left: 390px;
+}
+.container-grid5 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1;
+}
+h5 {
+  display: flex;
+  position: absolute;
+  color: floralwhite;
+  padding-top: 110px;
+  margin-left: 410px;
+  margin-right: 1000px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: left;
+}
+.image1 {
+  width: 100%;
+  position: absolute;
+}
+h6 {
+  display: flex;
+  position: absolute;
+  color: floralwhite;
+  padding-top: 135px;
+  margin-left: 410px;
+  margin-right: 1000px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: left;
+}
+.formulaire {
+  display: grid;
+  position: absolute;
+  color: floralwhite;
+  padding-top: 70px;
+  margin-left: 780px;
+  margin-right: 400px;
+}
+input,
+textarea {
+  font-size: larger;
+  background-color: black;
+}
+.button3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+  color: floralwhite;
+  font-weight: bolder;
+  background-color: coral;
+  width: 120px;
+  display: flex;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 330px;
+  text-align: center;
+}
+
+/*button effect*/
+.button4 {
+  width: 120px;
+  height: 30px;
+  background-color: gray;
+  color: coral;
+}
+.button5 {
+  width: 120px;
+  height: 30px;
+  margin-top: 65px;
+  background-color: gray;
+  color: coral;
+}
+.button4:hover {
+  transition-duration: 2s;
+  background-color: coral;
+  color: black;
+
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+
+    transparent 60%,
+    transparent 100%
+  );
+}
+.button5:hover {
+  transition-duration: 2s;
+  background-color: coral;
+  color: black;
+
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+
+    transparent 60%,
+    transparent 100%
+  );
+}
