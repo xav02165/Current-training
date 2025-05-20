@@ -1,5 +1,16 @@
+:root {
+  --Color-font: gray;
+  --Color-rappel: coral;
+  --Margin-l-container: 300px;
+  --Margin-r-container: 300px;
+  --Centrage-h-left: 300px;
+  --centrage-h-right: 300px;
+  --color-text: blanchedalmond;
+  --header-center-l: 500px;
+  --header-center-r: 500px;
+}
 body {
-  background-color: gray;
+  background-color: var(--Color-font);
 }
 
 /*HEADER*/
@@ -8,7 +19,7 @@ a {
   color: floralwhite;
 }
 a:hover {
-  color: coral;
+  color: var(--Color-rappel);
   background-color: black;
 }
 .navbar {
@@ -18,7 +29,7 @@ a:hover {
   left: 0;
   right: 0;
   padding: 10px;
-  color: blanchedalmond;
+  color: var(--color-text);
   font-size: 150%;
   font-weight: normal;
   justify-content: center;
@@ -32,9 +43,9 @@ h1 {
   display: flex;
   position: absolute;
   margin-top: 230px;
-  color: blanchedalmond;
-  margin-left: 500px;
-  margin-right: 500px;
+  color: var(--color-text);
+  margin-left: var(--header-center-l);
+  margin-right: var(--header-center-r);
   font-size: 60px;
   text-align: right;
 }
@@ -42,9 +53,9 @@ h1 {
   display: flex;
   position: absolute;
   margin-top: 350px;
-  color: blanchedalmond;
-  margin-left: 500px;
-  margin-right: 500px;
+  color: var(--color-text);
+  margin-left: var(--header-center-l);
+  margin-right: var(--header-center-r);
   font-size: 20px;
   text-align: right;
   line-height: 25px;
@@ -52,11 +63,10 @@ h1 {
 .button1 {
   display: flex;
   position: absolute;
-  margin-top: 450px;
-  color: blanchedalmond;
-  background-color: #ff7f50;
-  margin-left: 950px;
-  margin-right: 470px;
+
+  color: var(--color-text);
+  background-color: var(--Color-rappel);
+
   font-size: larger;
   text-align: right;
 
@@ -73,9 +83,9 @@ h1 {
 }
 /*section grid*/
 .container {
-  margin-left: 300px;
-  margin-right: 300px;
-  color: blanchedalmond;
+  margin-left: var(--Margin-l-container);
+  margin-right: var(--Margin-r-container);
+  color: var(--color-text);
 }
 .container-grid {
   display: grid;
@@ -102,10 +112,10 @@ h2 {
   font-weight: bolder;
   font-size: 30px;
 
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: var(--Centrage-h-left);
+  margin-right: var(--centrage-h-right);
   background-color: black;
-  color: blanchedalmond;
+  color: var(--color-text);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -113,9 +123,9 @@ h2 {
   display: flex;
   position: absolute;
   margin-top: 290px;
-  color: blanchedalmond;
-  background-color: #ff7f50;
-  margin-left: 630px;
+  color: var(--color-text);
+  background-color: var(--Color-rappel);
+  margin-left: 520px;
   margin-right: 470px;
   font-size: medium;
 }
@@ -128,7 +138,7 @@ h2 {
   padding-bottom: 20px;
 }
 .vertical-line {
-  border-left: 2px solid #ff7f50;
+  border-left: 2px solid var(--Color-rappel);
   display: inline-block;
   height: 60px;
   margin: 20px 20px;
@@ -139,7 +149,7 @@ h2 {
   display: grid;
   grid-template-columns: 30% 30% 40%;
   grid-template-rows: 15% 75%;
-  background-color: coral;
+  background-color: var(--Color-rappel);
   padding: 50px;
 }
 h3 {
@@ -148,17 +158,17 @@ h3 {
   font-size: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: coral;
-  margin-left: 300px;
-  margin-right: 300px;
+  background-color: var(--Color-rappel);
+  margin-left: var(--Centrage-h-left);
+  margin-right: var(--centrage-h-right);
 }
 
 .container2 {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: var(--Margin-l-container);
+  margin-right: var(--Margin-r-container);
   display: flex;
-  color: blanchedalmond;
-  background-color: coral;
+  color: var(--color-text);
+  background-color: var(--Color-rappel);
 }
 .img2 {
   padding-left: 30px;
@@ -221,9 +231,9 @@ h3 {
 }
 /*section grid3*/
 .container3 {
-  margin-left: 300px;
-  margin-right: 300px;
-  color: blanchedalmond;
+  margin-left: var(--Margin-l-container);
+  margin-right: var(--Margin-r-container);
+  color: var(--color-text);
   background-color: rgb(0, 0, 0);
 }
 h4 {
@@ -233,9 +243,9 @@ h4 {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: black;
-  color: blanchedalmond;
-  margin-left: 300px;
-  margin-right: 300px;
+  color: var(--color-text);
+  margin-left: var(--Centrage-h-left);
+  margin-right: var(--centrage-h-right);
 }
 .container-grid4 {
   display: grid;
@@ -246,7 +256,7 @@ h4 {
 }
 
 hr {
-  background-color: coral;
+  background-color: var(--Color-rappel);
 }
 .logo {
   height: 50px;
@@ -261,6 +271,7 @@ hr {
   padding-top: 70px;
   padding-bottom: 20px;
   margin-left: 390px;
+  width: 390px;
 }
 .container-grid5 {
   display: grid;
@@ -299,8 +310,9 @@ h6 {
   position: absolute;
   color: floralwhite;
   padding-top: 70px;
+  padding-bottom: 20px;
   margin-left: 780px;
-  margin-right: 400px;
+  width: 400px;
 }
 input,
 textarea {
@@ -315,7 +327,7 @@ textarea {
   border-radius: 5px;
   color: floralwhite;
   font-weight: bolder;
-  background-color: coral;
+  background-color: var(--Color-rappel);
   width: 120px;
   display: flex;
   position: absolute;
@@ -329,14 +341,14 @@ textarea {
   width: 120px;
   height: 30px;
   background-color: gray;
-  color: coral;
+  color: var(--Color-rappel);
 }
 .button5 {
   width: 120px;
   height: 30px;
   margin-top: 65px;
   background-color: gray;
-  color: coral;
+  color: var(--Color-rappel);
 }
 .button4:active {
   transition-duration: 2s;
@@ -350,4 +362,236 @@ textarea {
   color: black;
 
   background-image: linear-gradient(to right, gray, coral);
+}
+
+@media (max-width: 1470px) {
+  :root {
+    --Color-font: gray;
+    --Color-rappel: coral;
+    --Margin-l-container: 200px;
+    --Margin-r-container: 200px;
+    --Centrage-h-left: 200px;
+    --centrage-h-right: 200px;
+    --color-text: blanchedalmond;
+    --header-center-l: 300px;
+    --header-center-r: 300px;
+  }
+}
+
+@media (max-width: 1119px) {
+  :root {
+    --Color-font: gray;
+    --Color-rappel: coral;
+    --Margin-l-container: 100px;
+    --Margin-r-container: 100px;
+    --Centrage-h-left: 100px;
+    --centrage-h-right: 100px;
+    --color-text: blanchedalmond;
+    --header-center-l: 200px;
+    --header-center-r: 200px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  .pos-text {
+    font-size: 15px;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 930px) {
+  :root {
+    --Color-font: gray;
+    --Color-rappel: coral;
+    --Margin-l-container: 0px;
+    --Margin-r-container: 0px;
+    --Centrage-h-left: 0px;
+    --centrage-h-right: 0px;
+    --color-text: blanchedalmond;
+    --header-center-l: 100px;
+    --header-center-r: 100px;
+  }
+  h1 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+  .pos-text {
+    font-size: 10px;
+    margin-top: 200px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+/*test footer*/
+@media (max-width: 1600px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 360px;
+    width: 390px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 750px;
+    width: 400px;
+  }
+}
+@media (max-width: 1500px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 310px;
+    width: 390px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 700px;
+    width: 400px;
+  }
+}
+@media (max-width: 1400px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 290px;
+    width: 370px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 680px;
+    width: 380px;
+  }
+}
+@media (max-width: 1300px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 270px;
+    width: 370px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 660px;
+    width: 380px;
+  }
+}
+@media (max-width: 1200px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    width: 360px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 640px;
+    width: 370px;
+  }
+}
+@media (max-width: 1100px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 230px;
+    width: 350px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 620px;
+    width: 360px;
+  }
+}
+@media (max-width: 1000px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 210px;
+    width: 340px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 600px;
+    width: 350px;
+  }
+}
+@media (max-width: 900px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 190px;
+    width: 320px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 580px;
+    width: 330px;
+  }
+}
+@media (max-width: 800px) {
+  .img-visuel {
+    display: flex;
+    position: absolute;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 170px;
+    width: 320px;
+  }
+  .formulaire {
+    display: grid;
+    position: absolute;
+    color: floralwhite;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 560px;
+    width: 330px;
+  }
 }
