@@ -723,7 +723,8 @@ textarea {
     padding-top: 70px;
     padding-bottom: 20px;
     margin-left: 0px;
-    width: 320px;
+    width: 250px;
+    height: 260px;
   }
   .formulaire {
     display: grid;
@@ -731,8 +732,8 @@ textarea {
     color: floralwhite;
     padding-top: 70px;
     padding-bottom: 20px;
-    margin-left: 320px;
-    width: 330px;
+    margin-left: 250px;
+    width: 250px;
     height: 260px;
   }
   h5 {
@@ -776,8 +777,14 @@ textarea {
     border-radius: 15px;
   }
 
-  .yea {
+  .years {
     display: flex;
     flex-wrap: wrap;
+  }
+  .img3 {
+    margin-left: 30px;
+  }
+  .img5 {
+    margin-left: 30px;
   }
 }
