@@ -248,6 +248,12 @@ h4 {
 hr {
   background-color: coral;
 }
+.logo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  margin-left: 30px;
+}
 /*Footer*/
 .img-visuel {
   display: flex;
