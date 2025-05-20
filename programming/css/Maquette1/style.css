@@ -69,6 +69,7 @@ h1 {
 
   font-size: larger;
   text-align: right;
+  margin-left: 100px;
 
   border-radius: 20px;
 }
@@ -709,10 +710,10 @@ textarea {
   .button2 {
     display: flex;
     position: absolute;
-    margin-top: 290px;
+    margin-top: 680px;
     color: var(--color-text);
     background-color: var(--Color-rappel);
-    margin-left: 380px;
+    margin-left: 0px;
 
     font-size: medium;
   }
