@@ -714,7 +714,7 @@ textarea {
     margin-top: 680px;
     color: var(--color-text);
     background-color: var(--Color-rappel);
-    margin-left: 0px;
+    margin-left: 80px;
 
     font-size: medium;
   }
@@ -783,10 +783,48 @@ textarea {
     display: flex;
     flex-wrap: wrap;
   }
+  .img2 {
+    margin-left: 100px;
+  }
   .img3 {
-    margin-left: 30px;
+    margin-left: 130px;
   }
   .img5 {
     margin-left: 30px;
+  }
+  .center {
+    text-align: center;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin-left: 160px;
+  }
+  .p7 {
+    display: flex;
+    position: absolute;
+    margin-left: 130px;
+    padding: 2px;
+    background-color: black;
+    margin-top: -30px;
+  }
+  .p4 {
+    margin-left: 130px;
+  }
+  .p3 {
+    margin-left: 130px;
+  }
+  .p32 {
+    margin-left: 130px;
+  }
+  .p6 {
+    margin-left: 130px;
+  }
+  .p33 {
+    margin-left: 130px;
+  }
+  .center-hall {
+    margin-left: 80px;
   }
 }
