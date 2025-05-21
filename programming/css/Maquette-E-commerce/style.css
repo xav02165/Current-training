@@ -1,26 +1,49 @@
 :root {
 }
-
-@media (max-width: 1023px) {
+/*header*/
+@media (max-width: 720px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
-    height: 564px;
-    position: relative;
   }
   .background {
     background-size: cover;
     background-repeat: no-repeat;
   }
   .img1 {
-    background-image: url(image.jpg/logo-header.png);
+    color: #fdc98a;
 
-    width: 390px;
-    height: 173px;
+    padding: 10vh;
+    text-align: center;
   }
-
-  ul,
-  li {
+  /*section1*/
+  li,
+  ul {
     display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 30px;
+  }
+  .color {
+    background-color: #fdc98a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .loupe {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    background: #fdc98a;
+    margin-left: 150px;
+  }
+  textarea {
+    background-color: #fdc98a;
+  }
+  /*section2*/
+  .bloc-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
   }
