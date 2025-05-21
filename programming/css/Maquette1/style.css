@@ -1,6 +1,6 @@
 :root {
   --Color-font: gray;
-  --Color-rappel: coral;
+  --Color-rappel: #cca57c;
   --Margin-l-container: 300px;
   --Margin-r-container: 300px;
   --Centrage-h-left: 300px;
@@ -9,12 +9,27 @@
   --header-center-l: 500px;
   --header-center-r: 500px;
 }
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--Color-font);
   font-family: "roboto", sans-serif;
 }
 
 /*HEADER*/
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-image: url("./image.jpg/bg_header.jpg");
+  position: relative;
+}
+
 li,
 a {
   color: floralwhite;
@@ -23,13 +38,28 @@ a:hover {
   color: var(--Color-rappel);
   background-color: black;
 }
+
+.header-content {
+  padding: 10vh 0;
+  text-align: right;
+}
+
+.header-title {
+  text-align: right;
+  margin-bottom: 20px;
+  color: var(--color-text);
+  margin-left: var(--header-center-l);
+  margin-right: var(--header-center-r);
+  font-size: 60px;
+  text-align: right;
+}
+
 .navbar {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
-  top: 0;
+  padding: 10px;
   left: 0;
   right: 0;
-  padding: 10px;
   color: var(--color-text);
   font-size: 150%;
   font-weight: normal;
@@ -40,20 +70,8 @@ a:hover {
 .position-menu {
   display: flex;
 }
-h1 {
-  display: flex;
-  position: absolute;
-  margin-top: 230px;
-  color: var(--color-text);
-  margin-left: var(--header-center-l);
-  margin-right: var(--header-center-r);
-  font-size: 60px;
-  text-align: right;
-}
+
 .pos-text {
-  display: flex;
-  position: absolute;
-  margin-top: 350px;
   color: var(--color-text);
   margin-left: var(--header-center-l);
   margin-right: var(--header-center-r);
@@ -61,17 +79,17 @@ h1 {
   text-align: right;
   line-height: 25px;
 }
-.button1 {
-  display: flex;
-  position: absolute;
 
+.pos-text .pos-text-para {
+  margin-bottom: 20px;
+}
+
+.button1 {
+  display: inline-block;
   color: var(--color-text);
   background-color: var(--Color-rappel);
-
   font-size: larger;
   text-align: right;
-  margin-left: 100px;
-
   border-radius: 20px;
 }
 .image {
@@ -121,19 +139,24 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.image-hall {
+  display: flex;
+
+  padding-left: 120px;
+}
 .button2 {
   display: flex;
   position: absolute;
   margin-top: 290px;
   color: var(--color-text);
   background-color: var(--Color-rappel);
-  margin-left: 520px;
-  margin-right: 470px;
+  margin-left: 650px;
+  margin-right: 430px;
   font-size: medium;
 }
 .p1 {
   font-size: larger;
-  margin-left: 30px;
+  padding-bottom: 20px;
 }
 .p2 {
   margin-left: 50px;
@@ -142,10 +165,11 @@ h2 {
 .vertical-line {
   border-left: 2px solid var(--Color-rappel);
   display: inline-block;
-  height: 60px;
+  height: 80px;
   margin: 20px 20px;
   margin-left: -10px;
 }
+
 /*section grid 2*/
 .container-grid3 {
   display: grid;
@@ -175,15 +199,17 @@ h3 {
 .img2 {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 30px;
 }
 .img3 {
   padding-right: 30px;
+  padding-bottom: 30px;
 }
 .p3 {
   display: flex;
   margin-left: 50px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: larger;
 }
 .p32 {
@@ -191,7 +217,7 @@ h3 {
   position: absolute;
   font-size: larger;
   margin-left: 50px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .p4 {
   display: flex;
@@ -199,20 +225,20 @@ h3 {
   margin-left: 50px;
   padding: 2px;
   background-color: black;
-  margin-top: -30px;
+  margin-top: -60px;
 }
 .p6 {
   display: flex;
   margin-left: 25px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: larger;
 }
 .p33 {
   display: flex;
   position: absolute;
   margin-left: 25px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .color-text {
   color: black;
@@ -221,6 +247,7 @@ h3 {
 }
 .p5 {
   font-size: 26px;
+  padding-right: 30px;
 }
 
 .p7 {
@@ -229,7 +256,13 @@ h3 {
   margin-left: 30px;
   padding: 2px;
   background-color: black;
-  margin-top: -30px;
+  margin-top: -60px;
+}
+.p9 {
+  padding-right: 30px;
+}
+.img-logo {
+  padding-bottom: 20px;
 }
 /*section grid3*/
 .container3 {
@@ -266,61 +299,67 @@ hr {
   display: flex;
   margin-left: 30px;
 }
+.center {
+  padding-right: 20px;
+}
 /*Footer*/
+
+.footer {
+  background-image: url("./image.jpg/bg_footer.jpg");
+  position: relative;
+}
+
 .img-visuel {
-  display: flex;
-  position: absolute;
-  padding-top: 70px;
-  padding-bottom: 20px;
-  margin-left: 390px;
   width: 390px;
+  position: relative;
 }
 .container-grid5 {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 1;
+  max-width: 800px;
+  padding: 64px;
+  margin: 0 auto;
+  align-items: flex-start;
 }
 h5 {
-  display: flex;
-  position: absolute;
   color: floralwhite;
-  padding-top: 110px;
-  margin-left: 410px;
-  margin-right: 1000px;
   font-weight: bolder;
   font-size: 25px;
   text-align: left;
 }
 .image1 {
   width: 100%;
-  position: absolute;
   border-radius: 15px;
 }
 h6 {
-  display: flex;
-  position: absolute;
   color: floralwhite;
-  padding-top: 135px;
-  margin-left: 410px;
-  margin-right: 1000px;
   font-weight: bolder;
   font-size: 25px;
   text-align: left;
 }
+
+.footer-img {
+  padding: 20px;
+  background-image: url("./image.jpg/visuelgauche.jpg");
+  height: 300px;
+}
+
 .formulaire {
   display: grid;
-  position: absolute;
   color: floralwhite;
-  padding-top: 70px;
-  padding-bottom: 20px;
-  margin-left: 780px;
-  width: 400px;
+  height: 300px;
+  background-color: rgba(14, 12, 12, 0.9);
+  padding: 20px;
 }
 input,
 textarea {
   font-size: larger;
-  background-color: rgba(14, 12, 12, 0.9);
+  background-color: transparent;
   color: floralwhite;
+  margin: 10px 0;
+  border: 0;
+  border-bottom: 1px solid white;
+  padding: 10px 0;
 }
 .button3 {
   padding-top: 10px;
@@ -332,9 +371,6 @@ textarea {
   background-color: var(--Color-rappel);
   width: 120px;
   display: flex;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 330px;
   text-align: center;
 }
 
@@ -366,10 +402,14 @@ textarea {
   background-image: linear-gradient(to right, gray, coral);
 }
 
+.text-gold {
+  color: var(--Color-rappel);
+}
+
 @media (max-width: 1470px) {
   :root {
     --Color-font: gray;
-    --Color-rappel: coral;
+    --Color-rappel: #cca57c;
     --Margin-l-container: 200px;
     --Margin-r-container: 200px;
     --Centrage-h-left: 200px;
@@ -379,23 +419,13 @@ textarea {
     --header-center-r: 300px;
   }
   h5 {
-    display: flex;
-    position: absolute;
     color: floralwhite;
-    padding-top: 110px;
-    margin-left: 330px;
-    margin-right: 1000px;
     font-weight: bolder;
     font-size: 25px;
     text-align: left;
   }
   h6 {
-    display: flex;
-    position: absolute;
     color: floralwhite;
-    padding-top: 135px;
-    margin-left: 330px;
-    margin-right: 1000px;
     font-weight: bolder;
     font-size: 25px;
     text-align: left;
@@ -405,7 +435,7 @@ textarea {
 @media (max-width: 1119px) {
   :root {
     --Color-font: gray;
-    --Color-rappel: coral;
+    --Color-rappel: #cca57c;
     --Margin-l-container: 100px;
     --Margin-r-container: 100px;
     --Centrage-h-left: 100px;
@@ -438,17 +468,16 @@ textarea {
   }
   h1 {
     font-size: 40px;
-    margin-top: 100px;
   }
   .pos-text {
     font-size: 15px;
-    margin-top: 200px;
   }
 }
+
 @media (max-width: 930px) {
   :root {
     --Color-font: gray;
-    --Color-rappel: coral;
+    --Color-rappel: #cca57c;
     --Margin-l-container: 0px;
     --Margin-r-container: 0px;
     --Centrage-h-left: 0px;
@@ -459,11 +488,9 @@ textarea {
   }
   h1 {
     font-size: 35px;
-    margin-top: 100px;
   }
   .pos-text {
     font-size: 10px;
-    margin-top: 200px;
   }
   li {
     font-size: 20px;
@@ -491,7 +518,7 @@ textarea {
     text-align: left;
   }
 }
-/*test footer*/
+/* test footer
 @media (max-width: 1600px) {
   .img-visuel {
     display: flex;
@@ -672,19 +699,22 @@ textarea {
     --Centrage-h-left: 0px;
     --centrage-h-right: 0px;
     --color-text: blanchedalmond;
-    --header-center-l: 100px;
-    --header-center-r: 100px;
+    --header-center-l: 90px;
+    --header-center-r: 90px;
+  }
+  .button1 {
+    margin-left: 200px;
+    font-size: 10px;
   }
   h1 {
-    font-size: 20px;
-    margin-top: 60px;
+    font-size: 15px;
+    margin-top: 40px;
   }
   .pos-text {
     font-size: 10px;
-    margin-top: 100px;
   }
   li {
-    font-size: 15px;
+    font-size: 10px;
   }
   h5 {
     display: flex;
@@ -827,4 +857,4 @@ textarea {
   .center-hall {
     margin-left: 80px;
   }
-}
+} */
