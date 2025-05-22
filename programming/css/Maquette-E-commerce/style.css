@@ -42,6 +42,17 @@
   }
 
   /*section2*/
+  .hr1 {
+    width: 160px;
+  }
+  .p5 {
+    color: #fdc98a;
+  }
+  .pos {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 120px;
+  }
   .bloc-img {
     padding-top: 20px;
     padding-left: 40px;
@@ -77,6 +88,21 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .recette {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .toque {
+    margin-top: -50px;
   }
   /*categorie*/
 
