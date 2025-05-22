@@ -2,7 +2,7 @@
 }
 /*header*/
 
-@media (max-width: 720px) {
+@media (max-width: 400px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -196,6 +196,12 @@
   .p11 {
     font-size: larger;
     color: #fdc98a;
+  }
+  .background11 {
+    background-image: url(image.jpg/me-avatar\ 1.png);
+    clip: auto;
+    border-radius: 999px;
+    overflow: hidden;
   }
   /*galerie photo*/
   .texte {
