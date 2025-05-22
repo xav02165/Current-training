@@ -1,6 +1,7 @@
 :root {
 }
 /*header*/
+
 @media (max-width: 720px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
@@ -48,24 +49,71 @@
   .p5 {
     color: #fdc98a;
   }
-  .pos {
-    position: absolute;
-    margin-top: -130px;
-    margin-left: 120px;
-  }
-  .bloc-img {
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    gap: 40px;
-    background: #606060;
+
+  .background2 {
+    background-image: url(image.jpg/soupe.png);
+    width: 300px;
+    height: 210px;
     text-align: center;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
+  .background3 {
+    background-image: url(image.jpg/salade.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background4 {
+    background-image: url(image.jpg/dessert.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .vertical-a {
+    padding-top: 80px;
+  }
   /*articles-recent*/
+  .hr2 {
+    width: 300px;
+  }
+
+  .background5 {
+    background-image: url(image.jpg/tacos.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background6 {
+    background-image: url(image.jpg/cote_de_boeuf.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background7 {
+    background-image: url(image.jpg/carrot.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background8 {
+    background-image: url(image.jpg/cookies.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .text-profil {
     text-align: center;
     color: black;
@@ -100,12 +148,55 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    padding-top: 40px;
   }
   .toque {
-    margin-top: -50px;
+    padding-top: 170px;
   }
   /*categorie*/
-
+  .categorie-P {
+    color: floralwhite;
+    font-size: larger;
+    padding-left: 90px;
+  }
+  .background9 {
+    background-image: url(image.jpg/bieres.png);
+    width: 300px;
+    height: 385px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background10 {
+    background-image: url(image.jpg/cafe.png);
+    width: 300px;
+    height: 385px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cadre {
+    border-style: solid #fdc98a 2px;
+    width: 290px;
+    height: 375px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+  }
+  .lire {
+    color: floralwhite;
+    background-color: #606060;
+  }
+  .p10 {
+    font-size: small;
+    color: #fdc98a;
+  }
+  .p11 {
+    font-size: larger;
+    color: #fdc98a;
+  }
   /*galerie photo*/
   .texte {
     text-align: center;
