@@ -1,8 +1,11 @@
 :root {
 }
+body {
+  background-color: #606060;
+}
 /*header*/
 
-@media (max-width: 400px) {
+@media (max-width: 720px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -17,14 +20,16 @@
     text-align: center;
   }
   /*section1*/
-  li,
-  ul {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+  .li1 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .range-li {
+    vertical-align: auto;
     gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .color {
     background-color: #fdc98a;
@@ -156,35 +161,28 @@
   /*categorie*/
   .categorie-P {
     color: floralwhite;
-    font-size: larger;
+    font-size: medium;
     padding-left: 90px;
   }
   .background9 {
     background-image: url(image.jpg/bieres.png);
     width: 300px;
-    height: 385px;
+    height: 315px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
   .background10 {
     background-image: url(image.jpg/cafe.png);
     width: 300px;
-    height: 385px;
+    height: 315px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
-  .cadre {
-    border-style: solid #fdc98a 2px;
-    width: 290px;
-    height: 375px;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 250px;
-  }
+
   .lire {
     color: floralwhite;
     background-color: #606060;
@@ -197,11 +195,23 @@
     font-size: larger;
     color: #fdc98a;
   }
-  .background11 {
-    background-image: url(image.jpg/me-avatar\ 1.png);
-    clip: auto;
-    border-radius: 999px;
-    overflow: hidden;
+  .inner-border {
+    position: relative;
+    padding: 10px;
+  }
+
+  .inner-border::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #fdc98a;
+    pointer-events: none;
+  }
+  .centre {
+    padding-top: 200px;
   }
   /*galerie photo*/
   .texte {
@@ -209,9 +219,6 @@
     color: #fdc98a;
   }
 
-  .fond {
-    background-color: #606060;
-  }
   .dimension {
     height: 210px;
     width: 300px;
@@ -233,7 +240,7 @@
     margin: auto;
     display: flex;
     padding-top: 20px;
-    padding-bottom: 40px;
+
     color: aliceblue;
   }
   .footer {
@@ -243,7 +250,7 @@
     padding-left: 80px;
     padding-right: 80px;
     font-size: 12px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   .p-color {
     color: #fdc98a;
