@@ -826,8 +826,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
     row-gap: 5px;
+    background-image: content;
   }
 
   .texte {
@@ -841,7 +841,6 @@ body {
   }
   .background11 {
     background-image: url(image.jpg/hamburger_small.png);
-
     background-repeat: no-repeat;
   }
   .background12 {
