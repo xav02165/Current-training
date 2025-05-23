@@ -824,10 +824,12 @@ body {
   /*galerie photo*/
   .grid3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    row-gap: 5px;
-    background-image: content;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 210px 210px;
+    gap: 5px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .texte {
@@ -835,10 +837,6 @@ body {
     color: #fdc98a;
   }
 
-  .dimension {
-    height: 210px;
-    width: 300px;
-  }
   .background11 {
     background-image: url(image.jpg/hamburger_small.png);
     background-repeat: no-repeat;
@@ -849,7 +847,7 @@ body {
     background-repeat: no-repeat;
   }
   .background13 {
-    background-image: url(image.jpg/dessert.png);
+    background-image: url(image.jpg/gateau_small.png);
 
     background-repeat: no-repeat;
   }
@@ -880,6 +878,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }*/
+
   /*footer*/
   .adequation {
     margin: auto;
