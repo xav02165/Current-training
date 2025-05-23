@@ -62,6 +62,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .background3 {
     background-image: url(image.jpg/salade.png);
@@ -70,6 +72,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
   .background4 {
     background-image: url(image.jpg/dessert.png);
@@ -78,6 +81,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
   }
   .vertical-a {
     padding-top: 80px;
@@ -141,6 +145,7 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
   }
   .recette {
     border-style: solid black 1px;
@@ -242,10 +247,589 @@ body {
     padding-top: 20px;
 
     color: aliceblue;
+    margin-bottom: -120px;
   }
-  .footer {
+
+  .centre {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  .p-color {
+    color: #fdc98a;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
+    display: flex;
+  }
+}
+@media (min-width: 721px ; max-width: 1024px) {
+  .header {
+    background-image: url(image.jpg/headerdesktop.png);
+  }
+  .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img1 {
+    color: #fdc98a;
+
+    padding: 10vh;
+    text-align: center;
+  }
+  /*section1*/
+  .li1 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .range-li {
+    vertical-align: auto;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .color {
+    background-color: #fdc98a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .loupe {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    background: #fdc98a;
+    margin-left: 150px;
+  }
+  textarea {
+    background-color: #fdc98a;
+  }
+
+  /*section2*/
+  .hr1 {
+    width: 160px;
+  }
+  .p5 {
+    color: #fdc98a;
+  }
+
+  .background2 {
+    background-image: url(image.jpg/soupe.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .background3 {
+    background-image: url(image.jpg/salade.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .background4 {
+    background-image: url(image.jpg/dessert.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .vertical-a {
+    padding-top: 80px;
+  }
+  /*articles-recent*/
+  .hr2 {
+    width: 300px;
+  }
+
+  .background5 {
+    background-image: url(image.jpg/tacos.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background6 {
+    background-image: url(image.jpg/cote_de_boeuf.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background7 {
+    background-image: url(image.jpg/carrot.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background8 {
+    background-image: url(image.jpg/cookies.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-profil {
+    text-align: center;
+    color: black;
+  }
+  .p {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .border {
+    border-style: solid black 1px;
+    background-color: #fdc98a;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .recette {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .toque {
+    padding-top: 170px;
+  }
+  /*categorie*/
+  .categorie-P {
+    color: floralwhite;
+    font-size: medium;
+    padding-left: 90px;
+  }
+  .background9 {
+    background-image: url(image.jpg/bieres.png);
+    width: 300px;
+    height: 315px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .background10 {
+    background-image: url(image.jpg/cafe.png);
+    width: 300px;
+    height: 315px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .lire {
+    color: floralwhite;
+    background-color: #606060;
+  }
+  .p10 {
+    font-size: small;
+    color: #fdc98a;
+  }
+  .p11 {
+    font-size: larger;
+    color: #fdc98a;
+  }
+  .inner-border {
+    position: relative;
+    padding: 10px;
+  }
+
+  .inner-border::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #fdc98a;
+    pointer-events: none;
+  }
+  .centre {
+    padding-top: 200px;
+  }
+  /*galerie photo*/
+  .texte {
+    text-align: center;
+    color: #fdc98a;
+  }
+
+  .dimension {
+    height: 210px;
+    width: 300px;
+  }
+  .galerie-mobile {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    gap: 20px;
     background: #606060;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
+  /*footer*/
+  .adequation {
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+
+    color: aliceblue;
+    margin-bottom: -120px;
+  }
+
+  .centre {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  .p-color {
+    color: #fdc98a;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
+    display: flex;
+  }
+}
+@media (max-width: 1728px) {
+  .header {
+    background-image: url(image.jpg/headerdesktop.png);
+    display: block;
+  }
+  .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img1 {
+    color: #fdc98a;
+    display: block;
+
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /*section1*/
+  .li1 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .range-li {
+    vertical-align: auto;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .color {
+    background-color: #fdc98a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .loupe {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    background: #fdc98a;
+    margin-left: 150px;
+  }
+  textarea {
+    background-color: #fdc98a;
+  }
+
+  /*section2*/
+  .hr1 {
+    width: 160px;
+  }
+  .p5 {
+    color: #fdc98a;
+  }
+  .grid1 {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .background2 {
+    background-image: url(image.jpg/soupe.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .background3 {
+    background-image: url(image.jpg/salade.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .background4 {
+    background-image: url(image.jpg/dessert.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .vertical-a {
+    padding-top: 80px;
+  }
+  /*articles-recent*/
+  .grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .grid2-card1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .grid2-card2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid2-card3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid2-card4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .hr2 {
+    width: 300px;
+  }
+
+  .background5 {
+    background-image: url(image.jpg/tacos.png);
+    width: 600px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background6 {
+    background-image: url(image.jpg/cote_de_boeuf.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background7 {
+    background-image: url(image.jpg/carrot.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background8 {
+    background-image: url(image.jpg/cookies.png);
+    width: 600px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-profil {
+    text-align: center;
+    color: black;
+  }
+  .p {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .border {
+    border-style: solid black 1px;
+    background-color: #fdc98a;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .recette {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .recette2 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 600px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .toque {
+    padding-top: 170px;
+  }
+  /*categorie*/
+  .categorie-P {
+    color: floralwhite;
+    font-size: medium;
+    padding-left: 90px;
+  }
+  .background9 {
+    background-image: url(image.jpg/bieres.png);
+    width: 300px;
+    height: 315px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .background10 {
+    background-image: url(image.jpg/cafe.png);
+    width: 300px;
+    height: 315px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .lire {
+    color: floralwhite;
+    background-color: #606060;
+  }
+  .p10 {
+    font-size: small;
+    color: #fdc98a;
+  }
+  .p11 {
+    font-size: larger;
+    color: #fdc98a;
+  }
+  .inner-border {
+    position: relative;
+    padding: 10px;
+  }
+
+  .inner-border::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #fdc98a;
+    pointer-events: none;
+  }
+  .centre {
+    padding-top: 200px;
+  }
+  /*galerie photo*/
+  .texte {
+    text-align: center;
+    color: #fdc98a;
+  }
+
+  .dimension {
+    height: 210px;
+    width: 300px;
+  }
+  .galerie-mobile {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    gap: 20px;
+    background: #606060;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*footer*/
+  .adequation {
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+
+    color: aliceblue;
+    margin-bottom: -120px;
+  }
+
   .centre {
     padding-left: 80px;
     padding-right: 80px;
