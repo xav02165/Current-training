@@ -626,9 +626,8 @@ body {
   .grid2 {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-content: center;
-    justify-content: center;
-    gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
   }
   .grid2-card1 {
     grid-column-start: 1;
@@ -641,16 +640,12 @@ body {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    align-content: right;
-    justify-content: right;
   }
   .grid2-card3 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    align-content: left;
-    justify-content: left;
   }
   .grid2-card4 {
     grid-column-start: 1;
@@ -676,15 +671,13 @@ body {
     height: 210px;
     text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: ;
   }
   .background7 {
     background-image: url(image.jpg/carrot.png);
     width: 300px;
     height: 210px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
   .background8 {
     background-image: url(image.jpg/cookies.png);
@@ -726,8 +719,8 @@ body {
 
     padding-bottom: 20px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     margin-bottom: 20px;
     padding-top: 40px;
   }
@@ -741,6 +734,32 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .recette3 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .recette4 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: ;
     margin-bottom: 20px;
     padding-top: 40px;
   }
