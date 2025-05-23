@@ -267,7 +267,7 @@ body {
     display: flex;
   }
 }
-@media (min-width: 721px ; max-width: 1024px) {
+@media (max-width: ) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -529,7 +529,7 @@ body {
     display: flex;
   }
 }
-@media (max-width: 1728px) {
+@media (min-width: 1500px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
     display: block;
@@ -627,7 +627,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 1fr);
-    gap: 5px;
+    grid-gap: 5px;
   }
   .grid2-card1 {
     grid-column-start: 1;
@@ -654,7 +654,7 @@ body {
     grid-row-end: 4;
   }
   .hr2 {
-    width: 300px;
+    width: 600px;
   }
 
   .background5 {
@@ -671,7 +671,6 @@ body {
     height: 210px;
     text-align: center;
     margin-left: auto;
-    margin-right: ;
   }
   .background7 {
     background-image: url(image.jpg/carrot.png);
@@ -759,7 +758,7 @@ body {
     padding-bottom: 20px;
     justify-content: center;
     margin-left: auto;
-    margin-right: ;
+
     margin-bottom: 20px;
     padding-top: 40px;
   }
@@ -771,6 +770,7 @@ body {
     color: floralwhite;
     font-size: medium;
     padding-left: 90px;
+    margin-left: auto;
   }
   .background9 {
     background-image: url(image.jpg/bieres.png);
@@ -822,6 +822,14 @@ body {
     padding-top: 200px;
   }
   /*galerie photo*/
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    row-gap: 5px;
+  }
+
   .texte {
     text-align: center;
     color: #fdc98a;
@@ -831,7 +839,37 @@ body {
     height: 210px;
     width: 300px;
   }
-  .galerie-mobile {
+  .background11 {
+    background-image: url(image.jpg/hamburger_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background12 {
+    background-image: url(image.jpg/wrap_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background13 {
+    background-image: url(image.jpg/dessert.png);
+
+    background-repeat: no-repeat;
+  }
+  .background14 {
+    background-image: url(image.jpg/pancake_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background15 {
+    background-image: url(image.jpg/oeufs_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background16 {
+    background-image: url(image.jpg/poisson_small.png);
+
+    background-repeat: no-repeat;
+  }
+  /*.galerie-mobile {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -842,7 +880,7 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-  }
+  }*/
   /*footer*/
   .adequation {
     margin: auto;
