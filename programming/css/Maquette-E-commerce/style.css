@@ -283,7 +283,7 @@ body {
   }
   /*section1*/
   .li1 {
-    display: inline-block;
+    display: inline;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -653,10 +653,13 @@ body {
     grid-row-start: 3;
     grid-row-end: 4;
   }
-  .hr2 {
-    width: 600px;
-  }
-
+  
+.hr600 { 
+  width: 600px;
+}
+.hr300 {
+  width:300px;
+}
   .background5 {
     background-image: url(image.jpg/tacos.png);
     width: 600px;
@@ -709,6 +712,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
   .recette {
     border-style: solid black 1px;
@@ -821,6 +825,29 @@ body {
   .centre {
     padding-top: 200px;
   }
+
+  .container-grid-principal {
+    display: grid;
+    grid-template-columns: 600px 300px;
+    column-gap:0;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap:10px;
+  }
+  .container-partie1 {
+grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .container-partie2 {
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+  }
   /*galerie photo*/
   .grid3 {
     display: grid;
@@ -880,29 +907,38 @@ body {
   }*/
 
   /*footer*/
-  .adequation {
-    margin: auto;
-    display: flex;
-    padding-top: 20px;
+  
+.adequation2 { 
+  margin:auto;
+  padding-top: 20px;
+  color:aliceblue;
+  margin-left: 150px;
 
-    color: aliceblue;
-    margin-bottom: -120px;
-  }
-
-  .centre {
-    padding-left: 80px;
-    padding-right: 80px;
+}
+ 
+  .centre2 {
     font-size: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    
   }
+
   .p-color {
     color: #fdc98a;
-    padding-left: 80px;
+    margin-left: 800px;
+    justify-content: flex-end;
+    /*padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 
-    display: flex;
+    display: flex;*/
   }
-}
+  .decal-droite {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+
+  }
+  }
+
