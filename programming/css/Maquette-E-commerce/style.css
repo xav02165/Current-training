@@ -5,7 +5,7 @@ body {
 }
 /*header*/
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -19,8 +19,15 @@ body {
     padding: 10vh;
     text-align: center;
   }
+
+  .a1 {
+     
+    text-decoration: none;
+    color:black;
+  
+  }
   /*section1*/
-  .li1 {
+  /*.li1 {
     display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
@@ -30,7 +37,20 @@ body {
     gap: 30px;
     padding-left: 50px;
     padding-right: 50px;
-  }
+  }*/
+  .flex-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-list li {
+  padding-left:  50px; 
+  padding-right: 50px;
+}
   .color {
     background-color: #fdc98a;
     padding-top: 20px;
@@ -60,7 +80,7 @@ body {
         }
         .barre-recherche button {
             background-color:#fdc98a;
-            color: white;
+            color:#fdc98a;
             border: none;
             border-radius: 50%;
             padding: 8px 12px;
@@ -187,15 +207,49 @@ body {
     padding-top: 170px;
   }
   /*categorie*/
-  .categorie-P {
+  /*.categorie-P {
     color: floralwhite;
     font-size: medium;
     padding-left: 90px;
-  }
+  }*/
+  .menu {
+  list-style: none; 
+  padding-left: 90px;
+  padding-right: 80px;
+  
+}
+
+.menu li {
+  position: relative; 
+  padding: 10px 20px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu li:hover {
+  background-color: #dcdcdc; 
+}
+
+.menu li::after {
+  content: '➔'; 
+  position: absolute;
+  right: 10px; 
+  color: #888;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover::after {
+  color: #000; /* Change la couleur de la flèche au survol */
+}
+
   .background9 {
     background-image: url(image.jpg/bieres.png);
     width: 300px;
-    height: 315px;
+    height: 305px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -204,7 +258,7 @@ body {
   .background10 {
     background-image: url(image.jpg/cafe.png);
     width: 300px;
-    height: 315px;
+    height: 305px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -304,6 +358,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
   }
   .dimension {
     height: 210px;
@@ -331,12 +386,12 @@ body {
     margin-bottom: -120px;
   }
 
-  .centre {
+  /*.centre {
     padding-left: 80px;
     padding-right: 80px;
     font-size: 12px;
     padding-bottom: 20px;
-  }
+  }*/
   .p-color {
     color: #fdc98a;
     padding-left: 80px;
@@ -347,270 +402,11 @@ body {
 
     display: flex;
   }
-}
-@media (max-width:1024px ) {
-  .header {
-    background-image: url(image.jpg/headerdesktop.png);
-  }
-  .background {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .img1 {
-    color: #fdc98a;
-
-    padding: 10vh;
-    text-align: center;
-  }
-  /*section1*/
-  .li1 {
-    display: inline;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .range-li {
-    vertical-align: auto;
-    gap: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .color {
-    background-color: #fdc98a;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .loupe {
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    background: #fdc98a;
-    margin-left: 150px;
-  }
-  textarea {
-    background-color: #fdc98a;
-  }
-
-  /*section2*/
-  .hr1 {
-    width: 160px;
-  }
-  .p5 {
-    color: #fdc98a;
-  }
-
-  .background2 {
-    background-image: url(image.jpg/soupe.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  .background3 {
-    background-image: url(image.jpg/salade.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
-  .background4 {
-    background-image: url(image.jpg/dessert.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-  .vertical-a {
-    padding-top: 80px;
-  }
-  /*articles-recent*/
-  .hr2 {
-    width: 300px;
-  }
-
-  .background5 {
-    background-image: url(image.jpg/tacos.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .background6 {
-    background-image: url(image.jpg/cote_de_boeuf.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .background7 {
-    background-image: url(image.jpg/carrot.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .background8 {
-    background-image: url(image.jpg/cookies.png);
-    width: 300px;
-    height: 210px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .text-profil {
-    text-align: center;
-    color: black;
-  }
-  .p {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-  .border {
-    border-style: solid black 1px;
-    background-color: #fdc98a;
-    width: 300px;
-    text-align: center;
-    padding-top: 20px;
-
-    padding-bottom: 20px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-  .recette {
-    border-style: solid black 1px;
-    background-color: lightgreen;
-    width: 300px;
-    text-align: center;
-
-    padding-bottom: 20px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding-top: 40px;
-  }
-  .toque {
-    padding-top: 170px;
-  }
-  /*categorie*/
-  .categorie-P {
-    color: floralwhite;
-    font-size: medium;
-    padding-left: 90px;
-  }
-  .background9 {
-    background-image: url(image.jpg/bieres.png);
-    width: 300px;
-    height: 315px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
-  .background10 {
-    background-image: url(image.jpg/cafe.png);
-    width: 300px;
-    height: 315px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
-
-  .lire {
-    color: floralwhite;
-    background-color: #606060;
-  }
-  .p10 {
-    font-size: small;
-    color: #fdc98a;
-  }
-  .p11 {
-    font-size: larger;
-    color: #fdc98a;
-  }
-  .inner-border {
-    position: relative;
-    padding: 10px;
-  }
-
-  .inner-border::before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border: 2px solid #fdc98a;
-    pointer-events: none;
-  }
-  .centre {
-    padding-top: 200px;
-  }
-  /*galerie photo*/
-  .texte {
-    text-align: center;
-    color: #fdc98a;
-  }
-
-  .dimension {
-    height: 210px;
-    width: 300px;
-  }
-  .galerie-mobile {
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    gap: 20px;
-    background: #606060;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /*footer*/
-  .adequation {
-    margin: auto;
-    display: flex;
-    padding-top: 20px;
-
-    color: aliceblue;
-    margin-bottom: -120px;
-  }
-
-  .centre {
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 12px;
-    padding-bottom: 20px;
-  }
-  .p-color {
-    color: #fdc98a;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-
-    display: flex;
+  .fond-dekstop{
+    background-color: black;
   }
 }
-@media (max-width: 1728px) {
+@media (min-width:781px ) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
     display: block;
@@ -629,6 +425,12 @@ body {
     padding-bottom: 40px;
   }
   /*section1*/
+  .a1 {
+     
+    text-decoration: none;
+    color:black;
+  
+  }
   .li1 {
     display: inline-block;
     padding-left: 30px;
@@ -655,6 +457,33 @@ body {
   textarea {
     background-color: #fdc98a;
   }
+
+  .menu li {
+  position: relative; 
+  padding: 10px 20px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu li:hover {
+  background-color:#000; 
+}
+
+.menu li::after {
+  content: '➔'; 
+  position: absolute;
+  right: 10px; 
+  color:black;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover::after {
+  color: #000; 
+}
 
   /*section2*/
   .hr1 {
@@ -860,7 +689,7 @@ body {
   .background9 {
     background-image: url(image.jpg/bieres.png);
     width: 300px;
-    height: 315px;
+    height: 305px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -869,7 +698,7 @@ body {
   .background10 {
     background-image: url(image.jpg/cafe.png);
     width: 300px;
-    height: 315px;
+    height: 305px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1008,8 +837,462 @@ grid-column-start: 2;
 
   .p-color {
     color:aliceblue;
-    margin-left: 800px;
+    margin-left: 300px;
     justify-content: flex-end;
+    padding-bottom: 40px;
+    /*padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
+    display: flex;*/
+  }
+  .decal-droite {
+    display:flex;
+    text-align:right;
+    padding-right: 100px;
+
+  }
+  .decal-droite2 {
+    display:flex;
+    padding-right: 100px;
+justify-content: flex-end;
+  }
+  a {
+    text-decoration: none;
+    color:aliceblue;
+  }
+   .barre-recherche {
+            display: flex;
+            justify-content:flex-end;
+            
+            padding: 5px 10px;
+            background-color:#fdc98a;
+            
+        }
+        .barre-recherche input {
+            border:black 1px;
+            
+            padding: 5px;
+            font-size: 16px;
+            width: 150px;
+            
+        }
+        .barre-recherche button {
+            background-color:#fdc98a;
+          
+            border: none;
+            border-radius: 50%;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+  }
+@media (min-width: 1000px) {
+  .header {
+    background-image: url(image.jpg/headerdesktop.png);
+    display: block;
+  }
+  .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img1 {
+    color: #fdc98a;
+    display: block;
+
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /*section1*/
+  .li1 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .range-li {
+    vertical-align: auto;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .color {
+    background-color: #fdc98a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .loupe {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    background: #fdc98a;
+    margin-left: 150px;
+  }
+  textarea {
+    background-color: #fdc98a;
+  }
+
+  /*section2*/
+  .hr1 {
+    width: 160px;
+  }
+  .p5 {
+    color: #fdc98a;
+  }
+  .grid1 {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .background2 {
+    background-image: url(image.jpg/soupe.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .background3 {
+    background-image: url(image.jpg/salade.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .background4 {
+    background-image: url(image.jpg/dessert.png);
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .vertical-a {
+    padding-top: 80px;
+  }
+  /*articles-recent*/
+  .grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  .grid2-card1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .grid2-card2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid2-card3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid2-card4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+.hr600 { 
+  width: 600px;
+}
+.hr300 {
+  width:300px;
+}
+  .background5 {
+    background-image: url(image.jpg/tacos.png);
+    width: 600px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background6 {
+    background-image: url(image.jpg/cote_de_boeuf.png);
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    margin-left: auto;
+    background-repeat: no-repeat;
+  }
+  .background7 {
+    background-image: url(image.jpg/carrot.png);
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+  .background8 {
+    background-image: url(image.jpg/cookies.png);
+    width: 600px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  .text-profil {
+    text-align: center;
+    color: black;
+  }
+  .p {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .border {
+    border-style: solid black 1px;
+    background-color: #fdc98a;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .recette1 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-bottom: 10px;
+    padding-top: 40px;
+  }
+  .recette2 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 600px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .recette3 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 40px;
+  }
+  .recette4 {
+    border-style: solid black 1px;
+    background-color: lightgreen;
+    width: 300px;
+    text-align: center;
+
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  .toque {
+    padding-top: 170px;
+  }
+  /*categorie*/
+  .categorie-P {
+    color: floralwhite;
+    font-size: medium;
+    text-align: left;
+    margin-left: -90px;
+    
+  }
+  .background9 {
+    background-image: url(image.jpg/bieres.png);
+    width: 300px;
+    height: 305px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .background10 {
+    background-image: url(image.jpg/cafe.png);
+    width: 300px;
+    height: 305px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .lire {
+    color: floralwhite;
+    background-color: #606060;
+  }
+  .p10 {
+    font-size: small;
+    color: #fdc98a;
+  }
+  .p11 {
+    font-size: larger;
+    color: #fdc98a;
+  }
+  .inner-border {
+    position: relative;
+    padding: 10px;
+  }
+
+  .inner-border::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #fdc98a;
+    pointer-events: none;
+  }
+  .centre {
+    padding-top: 200px;
+  }
+
+  .container-grid-principal {
+    display: grid;
+    grid-template-columns: 600px 300px;
+    column-gap:0;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap:10px;
+  }
+  .container-partie1 {
+grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .container-partie2 {
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+  }
+  /*galerie photo*/
+  .grid3 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 210px 210px;
+    gap: 5px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  .texte {
+    text-align: center;
+    color: #fdc98a;
+  }
+
+  .background11 {
+    background-image: url(image.jpg/hamburger_small.png);
+    background-repeat: no-repeat;
+  }
+  .background12 {
+    background-image: url(image.jpg/wrap_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background13 {
+    background-image: url(image.jpg/gateau_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background14 {
+    background-image: url(image.jpg/pancake_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background15 {
+    background-image: url(image.jpg/oeufs_small.png);
+
+    background-repeat: no-repeat;
+  }
+  .background16 {
+    background-image: url(image.jpg/poisson_small.png);
+
+    background-repeat: no-repeat;
+  }
+  /*.galerie-mobile {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    gap: 20px;
+    background: #606060;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+
+  /*footer*/
+  .fond-dekstop{
+    background-color: black;
+  }
+.adequation2 { 
+  
+  padding-top: 40px;
+  color:aliceblue;
+  margin-left: 150px;
+
+}
+ 
+  .centre2 {
+    font-size: 12px;
+    padding-bottom: 40px;
+    
+  }
+
+  .p-color {
+    color:aliceblue;
+    margin-left: 600px;
+    justify-content: flex-end;
+    padding-bottom: 40px;
     /*padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
@@ -1032,6 +1315,12 @@ justify-content: flex-end;
   a {
     text-decoration: none;
     color:aliceblue;
+  }
+  .a1 {
+     
+    text-decoration: none;
+    color:black;
+  
   }
    .barre-recherche {
             display: flex;
