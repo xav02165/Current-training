@@ -5,7 +5,7 @@ body {
 }
 /*header*/
 
-@media (max-width: 720px) {
+@media (max-width: 700px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -36,16 +36,39 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .loupe {
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    background: #fdc98a;
-    margin-left: 150px;
+  a {
+    text-decoration: none;
+    color:aliceblue;
   }
-  textarea {
-    background-color: #fdc98a;
-  }
+  
+
+
+
+        .barre-recherche {
+            display: flex;
+            justify-content: flex-end;
+          padding: 5px 10px;
+            background-color:#fdc98a;
+            
+        }
+        .barre-recherche input {
+            border: none;
+            
+            padding: 5px;
+            font-size: 16px;
+            
+        }
+        .barre-recherche button {
+            background-color:#fdc98a;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        
+
+
 
   /*section2*/
   .hr1 {
@@ -223,7 +246,65 @@ body {
     text-align: center;
     color: #fdc98a;
   }
+.background11 {
+    background-image: url(image.jpg/hamburger_small.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background12 {
+    background-image: url(image.jpg/wrap_small.png);
 
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background13 {
+    background-image: url(image.jpg/gateau_small.png);
+
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background14 {
+    background-image: url(image.jpg/pancake_small.png);
+
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background15 {
+    background-image: url(image.jpg/oeufs_small.png);
+
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background16 {
+    background-image: url(image.jpg/poisson_small.png);
+
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .dimension {
     height: 210px;
     width: 300px;
@@ -267,7 +348,7 @@ body {
     display: flex;
   }
 }
-@media (max-width: ) {
+@media (max-width:1024px ) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
   }
@@ -529,7 +610,7 @@ body {
     display: flex;
   }
 }
-@media (min-width: 1500px) {
+@media (max-width: 1728px) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
     display: block;
@@ -714,7 +795,7 @@ body {
     margin-bottom: 20px;
     margin-top: 10px;
   }
-  .recette {
+  .recette1 {
     border-style: solid black 1px;
     background-color: lightgreen;
     width: 300px;
@@ -857,6 +938,7 @@ grid-column-start: 2;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
   }
 
   .texte {
@@ -907,10 +989,12 @@ grid-column-start: 2;
   }*/
 
   /*footer*/
-  
+  .fond-dekstop{
+    background-color: black;
+  }
 .adequation2 { 
-  margin:auto;
-  padding-top: 20px;
+  
+  padding-top: 40px;
   color:aliceblue;
   margin-left: 150px;
 
@@ -923,7 +1007,7 @@ grid-column-start: 2;
   }
 
   .p-color {
-    color: #fdc98a;
+    color:aliceblue;
     margin-left: 800px;
     justify-content: flex-end;
     /*padding-left: 80px;
@@ -936,9 +1020,42 @@ grid-column-start: 2;
   }
   .decal-droite {
     display:flex;
-    justify-content: flex-end;
+    text-align:right;
     padding-right: 200px;
 
   }
+  .decal-droite2 {
+    display:flex;
+    padding-right: 200px;
+justify-content: flex-end;
+  }
+  a {
+    text-decoration: none;
+    color:aliceblue;
+  }
+   .barre-recherche {
+            display: flex;
+            justify-content:flex-end;
+            
+            padding: 5px 10px;
+            background-color:#fdc98a;
+            
+        }
+        .barre-recherche input {
+            border:black 1px;
+            
+            padding: 5px;
+            font-size: 16px;
+            width: 150px;
+            
+        }
+        .barre-recherche button {
+            background-color:#fdc98a;
+          
+            border: none;
+            border-radius: 50%;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
   }
 
