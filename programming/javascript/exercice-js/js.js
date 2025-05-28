@@ -164,15 +164,15 @@ function controle(age) {
     }
        
     
-    console.log(controle(10));
+    console.log(controle(10)); 
     console.log(controle(18));
     console.log(controle(25));
 
 /*exercice2: affichage nombre pair de 1 a 20:*/
 
-/*for (let a=0; a<=20; a+=2 ){
+for (let a=0; a<=20; a+=2 ){
 console.log(a);
-}*/
+}
 
 /*variante perso de 5 en 5 jusqu'a 50 */
 for (let a=0; a=50; a+=5){
