@@ -231,6 +231,7 @@ body {
 
 .menu li:hover {
   background-color: #dcdcdc; 
+
 }
 
 .menu li::after {
@@ -243,8 +244,11 @@ body {
 }
 
 .menu li:hover::after {
-  color: #000; /* Change la couleur de la flèche au survol */
+  color: #000; 
 }
+
+
+
 
   .background9 {
     background-image: url(image.jpg/bieres.png);
@@ -852,12 +856,14 @@ grid-column-start: 2;
     display:flex;
     text-align:right;
     padding-right: 100px;
+    
 
   }
   .decal-droite2 {
     display:flex;
     padding-right: 100px;
 justify-content: flex-end;
+margin-top:-80px;
   }
   a {
     text-decoration: none;
@@ -1311,6 +1317,8 @@ grid-column-start: 2;
     display:flex;
     padding-right: 200px;
 justify-content: flex-end;
+margin-top:-130px;
+
   }
   a {
     text-decoration: none;
