@@ -103,7 +103,7 @@ console.log(phrase);
 
 let a1=(data.topping[6].type);
 let phrase2= "cake au "+a1;
-console.log(phrase2);*/
+console.log(phrase2);
 
 let personne = {
 	nom: 'alice',
@@ -119,4 +119,65 @@ let personne = {
     compte.solde+=500;
     console.log(compte);
 
+
+let drink = {
+    "id": "2001",
+    "type": "smoothie",
+    "name": "Tropical Bliss",
+    "ppu": 3.75,
+    "ingredients": {
+        "fruits": [
+            { "id": "3001", "type": "Mango" },
+            { "id": "3002", "type": "Pineapple" },
+            { "id": "3003", "type": "Banana" },
+            { "id": "3004", "type": "Coconut" }
+        ]
+    },
+    "toppings": [
+        { "id": "6001", "type": "Chia Seeds" },
+        { "id": "6002", "type": "Granola" },
+        { "id": "6003", "type": "Honey" },
+        { "id": "6004", "type": "Mint Leaves" },
+        { "id": "6005", "type": "Boba" }
+    ]
+}
+console.log(drink.name);
+console.log(drink.ppu);
+console.log(drink["toppings"]);
+console.log(drink.ingredients.fruits[3].type);
+console.log(drink.toppings[4].type);
+console.log(drink.toppings[2].id);
+
+let ingredients1=(drink.ingredients.fruits[2].type);
+let ing2=(drink.ingredients.fruits[0].type);
+let ing3=(drink.toppings[0].type);
+let recette= ingredients1+ " plus un peu de "+ing2+ " et beaucoup de "+ ing3;
+console.log(recette)*/
+
+/*exercice1*/
+
+function controle(age) {
+    if(age >= 18) 
+        return "Majeur";
+     else(age < 18) 
+        return "Mineur";
+    }
+       
     
+    console.log(controle(10));
+    console.log(controle(18));
+    console.log(controle(25));
+
+/*exercice2: affichage nombre pair de 1 a 20:*/
+
+/*for (let a=0; a<=20; a+=2 ){
+console.log(a);
+}*/
+
+/*variante perso de 5 en 5 jusqu'a 50 */
+for (let a=0; a<=50; a+=5){
+    console.log(a);
+}
+
+
+
