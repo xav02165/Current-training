@@ -175,7 +175,7 @@ console.log(a);
 }*/
 
 /*variante perso de 5 en 5 jusqu'a 50 */
-for (let a=0; a<=50; a+=5){
+for (let a=0; a=50; a+=5){
     console.log(a);
 }
 
