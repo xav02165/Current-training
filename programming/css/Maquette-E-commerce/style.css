@@ -1,5 +1,4 @@
-:root {
-}
+
 body {
   background-color: #606060;
 }
@@ -21,23 +20,11 @@ body {
   }
 
   .a1 {
-     
     text-decoration: none;
     color:black;
-  
   }
   /*section1*/
-  /*.li1 {
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .range-li {
-    vertical-align: auto;
-    gap: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }*/
+  
   .flex-list {
   display: flex;
   flex-wrap: wrap; 
@@ -60,36 +47,26 @@ body {
     text-decoration: none;
     color:aliceblue;
   }
-  
-
-
-
-        .barre-recherche {
-            display: flex;
-            justify-content: flex-end;
-          padding: 5px 10px;
-            background-color:#fdc98a;
-            
-        }
-        .barre-recherche input {
-            border: none;
-            
-            padding: 5px;
-            font-size: 16px;
-            
-        }
-        .barre-recherche button {
-            background-color:#fdc98a;
-            color:#fdc98a;
-            border: none;
-            border-radius: 50%;
-            padding: 8px 12px;
-            cursor: pointer;
-        }
+  .barre-recherche {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    background-color:#fdc98a;
+    }
+  .barre-recherche input {
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    }
+    .barre-recherche button {
+    background-color:#fdc98a;
+    color:#fdc98a;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+    }
         
-
-
-
   /*section2*/
   .hr1 {
     width: 160px;
@@ -207,15 +184,12 @@ body {
     padding-top: 170px;
   }
   /*categorie*/
-  /*.categorie-P {
-    color: floralwhite;
-    font-size: medium;
-    padding-left: 90px;
-  }*/
+  
   .menu {
   list-style: none; 
   padding-left: 90px;
   padding-right: 80px;
+  color:#000;
   
 }
 
@@ -224,6 +198,7 @@ body {
   padding: 10px 20px;
   margin: 5px 0;
   background-color: #f0f0f0;
+  color:#000;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -231,6 +206,7 @@ body {
 
 .menu li:hover {
   background-color: #dcdcdc; 
+  color:#f0f0f0;
 
 }
 
@@ -390,12 +366,7 @@ body {
     margin-bottom: -120px;
   }
 
-  /*.centre {
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 12px;
-    padding-bottom: 20px;
-  }*/
+  
   .p-color {
     color: #fdc98a;
     padding-left: 80px;
@@ -410,6 +381,7 @@ body {
     background-color: black;
   }
 }
+
 @media (min-width:781px ) {
   .header {
     background-image: url(image.jpg/headerdesktop.png);
@@ -467,6 +439,7 @@ body {
   padding: 10px 20px;
   margin: 5px 0;
   background-color: #f0f0f0;
+  color:#000;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -474,6 +447,7 @@ body {
 
 .menu li:hover {
   background-color:#000; 
+  color:#f0f0f0;
 }
 
 .menu li::after {
@@ -633,11 +607,8 @@ body {
     background-color: lightgreen;
     width: 300px;
     text-align: center;
-
     padding-bottom: 20px;
     justify-content: center;
-    /*margin-left: auto;
-    margin-right: auto;*/
     margin-bottom: 20px;
     padding-top: 40px;
   }
@@ -808,18 +779,7 @@ grid-column-start: 2;
 
     background-repeat: no-repeat;
   }
-  /*.galerie-mobile {
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    gap: 20px;
-    background: #606060;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }*/
+  
 
   /*footer*/
   .fond-dekstop{
@@ -844,13 +804,7 @@ grid-column-start: 2;
     margin-left: 300px;
     justify-content: flex-end;
     padding-bottom: 40px;
-    /*padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-
-    display: flex;*/
+    
   }
   .decal-droite {
     display:flex;
@@ -862,8 +816,8 @@ grid-column-start: 2;
   .decal-droite2 {
     display:flex;
     padding-right: 100px;
-justify-content: flex-end;
-margin-top:-80px;
+    justify-content: flex-end;
+    margin-top:-80px;
   }
   a {
     text-decoration: none;
@@ -1090,8 +1044,6 @@ margin-top:-80px;
 
     padding-bottom: 20px;
     justify-content: center;
-    /*margin-left: auto;
-    margin-right: auto;*/
     margin-bottom: 10px;
     padding-top: 40px;
   }
@@ -1100,7 +1052,6 @@ margin-top:-80px;
     background-color: lightgreen;
     width: 600px;
     text-align: center;
-
     padding-bottom: 20px;
     justify-content: center;
     margin-left: auto;
@@ -1113,7 +1064,6 @@ margin-top:-80px;
     background-color: lightgreen;
     width: 300px;
     text-align: center;
-
     padding-bottom: 20px;
     justify-content: center;
     margin-left: auto;
@@ -1263,24 +1213,12 @@ grid-column-start: 2;
 
     background-repeat: no-repeat;
   }
-  /*.galerie-mobile {
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    gap: 20px;
-    background: #606060;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }*/
 
   /*footer*/
   .fond-dekstop{
     background-color: black;
   }
-.adequation2 { 
+  .adequation2 { 
   
   padding-top: 40px;
   color:aliceblue;
@@ -1299,13 +1237,7 @@ grid-column-start: 2;
     margin-left: 600px;
     justify-content: flex-end;
     padding-bottom: 40px;
-    /*padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-
-    display: flex;*/
+    
   }
   .decal-droite {
     display:flex;
@@ -1316,8 +1248,8 @@ grid-column-start: 2;
   .decal-droite2 {
     display:flex;
     padding-right: 200px;
-justify-content: flex-end;
-margin-top:-130px;
+    justify-content: flex-end;
+    margin-top:-130px;
 
   }
   a {
@@ -1330,29 +1262,26 @@ margin-top:-130px;
     color:black;
   
   }
-   .barre-recherche {
-            display: flex;
-            justify-content:flex-end;
-            
-            padding: 5px 10px;
-            background-color:#fdc98a;
-            
-        }
-        .barre-recherche input {
-            border:black 1px;
-            
-            padding: 5px;
-            font-size: 16px;
-            width: 150px;
+  .barre-recherche {
+    display: flex;
+    justify-content:flex-end;
+    padding: 5px 10px;
+    background-color:#fdc98a;
             
         }
-        .barre-recherche button {
-            background-color:#fdc98a;
-          
-            border: none;
-            border-radius: 50%;
-            padding: 8px 12px;
-            cursor: pointer;
-        }
+  .barre-recherche input {
+    border:black 1px;
+    padding: 5px;
+    font-size: 16px;
+    width: 150px;
+            
+    }
+  .barre-recherche button {
+    background-color:#fdc98a;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 12px;
+    cursor: pointer;
+    }
   }
 
