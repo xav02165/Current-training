@@ -30,15 +30,32 @@ let age=25;
 console.log(i);
 }*/
 
-const chiffrepair = [];
+
 for (let i=0; i<=20; i++) {
     if (i % 2 ===0 ) {
-        chiffrepair.push(i);
+        console.log(i);
     }
 }
-console.log("chiffre pair:", chiffrepair);
+
 
 /*variante perso de 5 en 5 jusqu'a 50 
 for (let a=0; a=50; a+=5){
     console.log(a);
 }*/
+
+
+/*const NombreaTrouver = 15;
+let chiffre = null;
+
+while (chiffre !== NombreaTrouver) {
+    chiffre = parseInt(prompt('Devinez le nombre  (entre 1 et 100) :'),);
+    
+    if (chiffre < NombreaTrouver) {
+        console.log('Trop bas !');
+    } else if (chiffre > NombreaTrouver) {
+        console.log('Trop haut !');
+    } else {
+        console.log('Félicitations ! Vous avez deviné le nombre .');
+    }
+}
+*/
