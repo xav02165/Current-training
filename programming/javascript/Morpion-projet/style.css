@@ -1,0 +1,9 @@
+.Grid {
+    display:grid;
+    grid-template-columns:repeat (3, 1fr) ;
+    grid-template-rows:repeat (3, 1fr);
+    height: 400px;
+    width: 400px;
+    gap: 20px ;
+    background-color: cadetblue;
+}
