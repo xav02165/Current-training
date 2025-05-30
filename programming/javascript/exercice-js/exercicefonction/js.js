@@ -31,7 +31,7 @@ console.log(i);
 }*/
 
 
-for (let i=0; i<=20; i++) {
+/*for (let i=0; i<=20; i++) {
     if (i % 2 ===0 ) {
         console.log(i);
     }
@@ -55,7 +55,33 @@ while (chiffre !== NombreaTrouver) {
     } else if (chiffre > NombreaTrouver) {
         console.log('Trop haut !');
     } else {
-        console.log('Félicitations ! Vous avez deviné le nombre .');
+        console.log(' Vous avez deviné le nombre .');
     }
 }
 */
+
+const carre = document.querySelector("#test")
+const carre = document.getElementById('test');
+
+
+function changeSize(elem,w,h){
+    const carre = document.getElementById(elem);
+
+    carre.addEventListener("click", () => {
+    carre.style.backgroundColor = "yellow";
+    carre.style.width = w + "px";
+    carre.style.height = h + "px";
+    
+})
+}
+changeSize('test', 300, 500)
+changeSize("demo2", 600, 10)
+
+
+
+
+
+
+
+
+
