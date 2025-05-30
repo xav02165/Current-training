@@ -1,9 +1,50 @@
+/* plateau de jeu et cases*/
+.Title {
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    width: 200px;
+    font-weight: bold;
+    font-size:larger;
+    border-radius: 30px;
+    text-align: center;
+
+
+}
 .Grid {
     display:grid;
     grid-template-columns:repeat (3, 1fr) ;
     grid-template-rows:repeat (3, 1fr);
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     gap: 20px ;
+    border-color: black;
     background-color: cadetblue;
+}
+.case1 {
+
+}
+.case2 {
+
+}
+.case3 {
+
+}
+.case4 {
+
+}
+.case5 {
+
+}
+.case6 {
+
+}
+.case7 {
+
+}
+.case8 {
+
+}
+.case9 {
+
 }
