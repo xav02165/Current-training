@@ -168,6 +168,16 @@ function controle(age) {
     console.log(controle(18));
     console.log(controle(25));
 
+    ou 
+
+    if (age>=18){
+        console.log(majeur)
+    }
+    else (age<18) {
+        console.log(mineur)
+    }
+
+
 /*exercice2: affichage nombre pair de 1 a 20:*/
 
 for (let a=0; a<=20; a+=2 ){
