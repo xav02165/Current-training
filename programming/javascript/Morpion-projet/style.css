@@ -13,7 +13,7 @@ h1 {
 #plateau {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    gap: 5px;
+    grid-gap: 1em;
     margin-bottom: 20px;
     justify-content: center;
 }
@@ -36,6 +36,10 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 .case1{
     width: 100px;
@@ -47,6 +51,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case2{
     width: 100px;
@@ -58,6 +65,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case3{
     width: 100px;
@@ -69,6 +79,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case4{
     width: 100px;
@@ -80,6 +93,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case5{
     width: 100px;
@@ -91,6 +107,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case6 {
     width: 100px;
@@ -102,6 +121,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case7{
     width: 100px;
@@ -113,6 +135,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case8{
     width: 100px;
@@ -124,6 +149,9 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .case0:hover {
     background-color: #e0e0e0;
@@ -169,4 +197,9 @@ button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
+}
+.style {
+    width: 100px;
+    height: 100px;
+
 }
