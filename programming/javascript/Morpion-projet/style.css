@@ -1,50 +1,61 @@
-/* plateau de jeu et cases*/
-.Title {
-    background-color: black;
-    color: aliceblue;
-    height: 20px;
-    width: 200px;
-    font-weight: bold;
-    font-size:larger;
-    border-radius: 30px;
+body {
+    background-color: bisque;
+    color: black;
+    font-family: sans-serif;
     text-align: center;
-
-
+    margin-top: 50px;
 }
-.Grid {
-    display:grid;
-    grid-template-columns:repeat (3, 1fr) ;
-    grid-template-rows:repeat (3, 1fr);
-    height: 600px;
-    width: 600px;
-    gap: 20px ;
-    border-color: black;
-    background-color: cadetblue;
-}
-.case1 {
 
+h1 {
+    margin-bottom: 20px;
 }
-.case2 {
 
+#plateau {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
 }
-.case3 {
 
+#score {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
-.case4 {
 
+.case{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-.case5 {
 
+.case:hover {
+    background-color: #e0e0e0;
 }
-.case6 {
 
+#Resultat {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
 }
-.case7 {
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
 }
-.case8 {
 
-}
-.case9 {
-
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
 }

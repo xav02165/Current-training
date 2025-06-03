@@ -1,0 +1,1 @@
+const cellule = document.querySelectorAll(."case");
