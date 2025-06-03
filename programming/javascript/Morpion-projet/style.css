@@ -26,7 +26,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.case{
+.case0{
     width: 100px;
     height: 100px;
     background-color: cornflowerblue;
@@ -37,8 +37,119 @@ h1 {
     justify-content: center;
     cursor: pointer;
 }
-
-.case:hover {
+.case1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case2{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case3{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case4{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case5{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case6 {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case7{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case8{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.case0:hover {
+    background-color: #e0e0e0;
+}
+.case1:hover {
+    background-color: #e0e0e0;
+}
+.case2:hover {
+    background-color: #e0e0e0;
+}
+.case3:hover {
+    background-color: #e0e0e0;
+}
+.case4:hover {
+    background-color: #e0e0e0;
+}
+.case5:hover {
+    background-color: #e0e0e0;
+}
+.case6:hover {
+    background-color: #e0e0e0;
+}
+.case7:hover {
+    background-color: #e0e0e0;
+}
+.case8:hover {
     background-color: #e0e0e0;
 }
 
